@@ -1,0 +1,172 @@
+
+Options: -X 1 -R 
+
+Decision Table:
+
+Number of training instances: 92
+Number of Rules : 9
+Non matches covered by Majority class.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 1,3,15
+
+Rules:
+==========================================================================================================================
+numberOfRows                         numberOfBlockFromDmPerm              isSubsequentCircuitSimulationProblem  
+==========================================================================================================================
+'(1886.5-inf)'                       '(488-inf)'                          0
+'(1176.5-1886.5]'                    '(441-488]'                          1
+'(1176.5-1886.5]'                    '(33.5-441]'                         1
+'(1886.5-inf)'                       '(33.5-441]'                         0
+'(-inf-1176.5]'                      '(33.5-441]'                         0
+'(-inf-1176.5]'                      '(20-33.5]'                          1
+'(1176.5-1886.5]'                    '(-inf-20]'                          0
+'(1886.5-inf)'                       '(-inf-20]'                          0
+'(-inf-1176.5]'                      '(-inf-20]'                          0
+==========================================================================================================================
+
+Naive Bayes Classifier
+
+                                       Class
+Attribute                                  0      1
+                                      (0.82) (0.18)
+====================================================
+numberOfRows
+  '(-inf-1176.5]'                        18.0    5.0
+  '(1176.5-1886.5]'                       2.0   13.0
+  '(1886.5-inf)'                         59.0    1.0
+  [total]                                79.0   19.0
+
+numberOfConnectedComponent
+  '(-inf-4.5]'                           37.0    1.0
+  '(4.5-35]'                              5.0   17.0
+  '(35-inf)'                             37.0    1.0
+  [total]                                79.0   19.0
+
+numberOfBlockFromDmPerm
+  '(-inf-20]'                            37.0    1.0
+  '(20-33.5]'                             1.0    5.0
+  '(33.5-441]'                           21.0    5.0
+  '(441-488]'                             1.0    9.0
+  '(488-inf)'                            21.0    1.0
+  [total]                                81.0   21.0
+
+normalizedAvgNNZPerRow
+  '(-inf-0.00334]'                       48.0    1.0
+  '(0.00334-0.004558]'                    2.0   13.0
+  '(0.004558-inf)'                       29.0    5.0
+  [total]                                79.0   19.0
+
+avgNNZPerRow
+  '(-inf-6.008417]'                      32.0    9.0
+  '(6.008417-6.266277]'                   1.0    9.0
+  '(6.266277-inf)'                       46.0    1.0
+  [total]                                79.0   19.0
+
+stdNNZPerRow
+  'All'                                  77.0   17.0
+  [total]                                77.0   17.0
+
+varNNZPerRow
+  'All'                                  77.0   17.0
+  [total]                                77.0   17.0
+
+maxEig
+  '(-inf-1.057923]'                      10.0    1.0
+  '(1.057923-2.965345]'                   3.0   13.0
+  '(2.965345-1654796.908925]'            55.0    1.0
+  '(1654796.908925-2628696.728325]'       1.0    5.0
+  '(2628696.728325-inf)'                  9.0    1.0
+  [total]                                78.0   21.0
+
+isMaxEigNegative
+  true                                   11.0    1.0
+  false                                  67.0   17.0
+  [total]                                78.0   18.0
+
+isDiagonallyDominant
+  true                                    5.0    1.0
+  false                                  73.0   17.0
+  [total]                                78.0   18.0
+
+isBlockDiagonal
+  true                                   48.0   17.0
+  false                                  30.0    1.0
+  [total]                                78.0   18.0
+
+isDiagonal
+  true                                    5.0    1.0
+  false                                  73.0   17.0
+  [total]                                78.0   18.0
+
+field
+  real                                   55.0   17.0
+  pattern                                23.0    1.0
+  integer                                 1.0    1.0
+  complex                                 1.0    1.0
+  [total]                                80.0   20.0
+
+symmetric
+  symmetric                              51.0    1.0
+  general                                27.0   17.0
+  skew-symmetric                          1.0    1.0
+  [total]                                79.0   19.0
+
+
+
+Time taken to build model: 0.25 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          92              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0826
+Root mean squared error                  0.1054
+Relative absolute error                 28.3042 %
+Root relative squared error             27.8033 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        0
+                 1         0          1         1         1          1        1
+Weighted Avg.    1         0          1         1         1          1    
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 76  0 |  a = 0
+  0 16 |  b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          88               95.6522 %
+Incorrectly Classified Instances         4                4.3478 %
+Kappa statistic                          0.8623
+Mean absolute error                      0.1019
+Root mean squared error                  0.1682
+Relative absolute error                 34.7947 %
+Root relative squared error             44.264  %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.947     0          1         0.947     0.973      0.998    0
+                 1         0.053      0.8       1         0.889      0.998    1
+Weighted Avg.    0.957     0.009      0.965     0.957     0.958      0.998
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 72  4 |  a = 0
+  0 16 |  b = 1
+

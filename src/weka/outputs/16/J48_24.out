@@ -1,0 +1,121 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+symmetric = symmetric
+|   stdNNZPerRow <= 11.99201
+|   |   normalizedAvgNNZPerRow <= 0.003219
+|   |   |   field = real
+|   |   |   |   isDiagonal = true: 0 (13.0)
+|   |   |   |   isDiagonal = false
+|   |   |   |   |   avgNNZPerRow <= 7.162889
+|   |   |   |   |   |   isDiagonallyDominant = true
+|   |   |   |   |   |   |   isBlockDiagonal = true: 1 (3.0)
+|   |   |   |   |   |   |   isBlockDiagonal = false: 0 (12.0/1.0)
+|   |   |   |   |   |   isDiagonallyDominant = false
+|   |   |   |   |   |   |   isBlockDiagonal = true
+|   |   |   |   |   |   |   |   isMaxEigNegative = true
+|   |   |   |   |   |   |   |   |   normalizedAvgNNZPerRow <= 0.000187: 1 (2.0)
+|   |   |   |   |   |   |   |   |   normalizedAvgNNZPerRow > 0.000187: 0 (3.0)
+|   |   |   |   |   |   |   |   isMaxEigNegative = false
+|   |   |   |   |   |   |   |   |   maxEig <= 3.068085: 0 (7.0)
+|   |   |   |   |   |   |   |   |   maxEig > 3.068085
+|   |   |   |   |   |   |   |   |   |   avgNNZPerRow <= 3.429348: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   avgNNZPerRow > 3.429348: 0 (2.0)
+|   |   |   |   |   |   |   isBlockDiagonal = false
+|   |   |   |   |   |   |   |   numberOfBlockFromDmPerm <= 545: 1 (14.0/1.0)
+|   |   |   |   |   |   |   |   numberOfBlockFromDmPerm > 545: 0 (2.0)
+|   |   |   |   |   avgNNZPerRow > 7.162889: 0 (39.0/1.0)
+|   |   |   field = pattern: 0 (91.0/2.0)
+|   |   |   field = integer: 0 (45.0)
+|   |   |   field = complex: 0 (0.0)
+|   |   normalizedAvgNNZPerRow > 0.003219: 0 (184.0)
+|   stdNNZPerRow > 11.99201
+|   |   avgNNZPerRow <= 14.855174
+|   |   |   numberOfBlockFromDmPerm <= 80
+|   |   |   |   numberOfRows <= 2961: 0 (4.0/1.0)
+|   |   |   |   numberOfRows > 2961: 1 (57.0/2.0)
+|   |   |   numberOfBlockFromDmPerm > 80: 0 (11.0)
+|   |   avgNNZPerRow > 14.855174
+|   |   |   field = real: 0 (52.0/1.0)
+|   |   |   field = pattern
+|   |   |   |   isMaxEigNegative = true: 1 (3.0)
+|   |   |   |   isMaxEigNegative = false
+|   |   |   |   |   stdNNZPerRow <= 243.794677
+|   |   |   |   |   |   isBlockDiagonal = true
+|   |   |   |   |   |   |   stdNNZPerRow <= 47.444881: 0 (13.0/1.0)
+|   |   |   |   |   |   |   stdNNZPerRow > 47.444881: 1 (4.0)
+|   |   |   |   |   |   isBlockDiagonal = false
+|   |   |   |   |   |   |   avgNNZPerRow <= 42.142857: 1 (3.0)
+|   |   |   |   |   |   |   avgNNZPerRow > 42.142857: 0 (24.0/1.0)
+|   |   |   |   |   stdNNZPerRow > 243.794677: 1 (4.0)
+|   |   |   field = integer: 0 (2.0)
+|   |   |   field = complex: 0 (0.0)
+symmetric = general: 0 (603.0/2.0)
+symmetric = skew-symmetric: 0 (2.0)
+symmetric = hermitian: 0 (1.0)
+
+Number of Leaves  : 	30
+
+Size of the tree : 	53
+
+
+Time taken to build model: 0.11 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1189               98.9185 %
+Incorrectly Classified Instances        13                1.0815 %
+Kappa statistic                          0.9261
+Mean absolute error                      0.0205
+Root mean squared error                  0.1012
+Relative absolute error                 13.4998 %
+Root relative squared error             36.8123 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.997     0.101      0.991     0.997     0.994      0.984    0
+                 0.899     0.003      0.967     0.899     0.932      0.984    1
+Weighted Avg.    0.989     0.093      0.989     0.989     0.989      0.984
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1100    3 |    a = 0
+   10   89 |    b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1154               96.0067 %
+Incorrectly Classified Instances        48                3.9933 %
+Kappa statistic                          0.7176
+Mean absolute error                      0.0491
+Root mean squared error                  0.1925
+Relative absolute error                 32.3452 %
+Root relative squared error             70.0175 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.985     0.313      0.972     0.985     0.978      0.822    0
+                 0.687     0.015      0.8       0.687     0.739      0.822    1
+Weighted Avg.    0.96      0.289      0.958     0.96      0.959      0.822
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1086   17 |    a = 0
+   31   68 |    b = 1
+

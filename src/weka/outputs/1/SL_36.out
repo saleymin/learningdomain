@@ -1,0 +1,71 @@
+
+Options: -I 0 -M 500 -H 50 -W 0.0 
+
+SimpleLogistic:
+
+Class 0 :
+1.04 + 
+[stdNNZPerRow] * 0   
+
+Class 1 :
+-1.04 + 
+[stdNNZPerRow] * 0   
+
+
+Time taken to build model: 0.27 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          91               98.913  %
+Incorrectly Classified Instances         1                1.087  %
+Kappa statistic                          0.7946
+Mean absolute error                      0.1294
+Root mean squared error                  0.1415
+Relative absolute error                178.7601 %
+Root relative squared error             79.5199 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0.333      0.989     1         0.994      1        0
+                 0.667     0          1         0.667     0.8        1        1
+Weighted Avg.    0.989     0.322      0.989     0.989     0.988      1    
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 89  0 |  a = 0
+  1  2 |  b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          91               98.913  %
+Incorrectly Classified Instances         1                1.087  %
+Kappa statistic                          0.7946
+Mean absolute error                      0.1321
+Root mean squared error                  0.1538
+Relative absolute error                179.1913 %
+Root relative squared error             85.7117 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0.333      0.989     1         0.994      0.989    0
+                 0.667     0          1         0.667     0.8        0.989    1
+Weighted Avg.    0.989     0.322      0.989     0.989     0.988      0.989
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 89  0 |  a = 0
+  1  2 |  b = 1
+

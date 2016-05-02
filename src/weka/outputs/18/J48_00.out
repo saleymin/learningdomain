@@ -1,0 +1,409 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+symmetric = symmetric
+|   numberOfBlockFromDmPerm <= 1934
+|   |   field = real
+|   |   |   isMaxEigNegative = true
+|   |   |   |   isDiagonallyDominant = true
+|   |   |   |   |   numberOfRows <= 886: electromagnetics problem (3.0)
+|   |   |   |   |   numberOfRows > 886: computational fluid dynamics problem (3.0)
+|   |   |   |   isDiagonallyDominant = false
+|   |   |   |   |   maxEig <= 475952.780275
+|   |   |   |   |   |   maxEig <= 2485.242652
+|   |   |   |   |   |   |   numberOfRows <= 2205: undirected weighted graph (3.0)
+|   |   |   |   |   |   |   numberOfRows > 2205: optimization problem (4.0/1.0)
+|   |   |   |   |   |   maxEig > 2485.242652: power network problem (13.0)
+|   |   |   |   |   maxEig > 475952.780275: optimization problem (9.0/3.0)
+|   |   |   isMaxEigNegative = false
+|   |   |   |   avgNNZPerRow <= 16.331226
+|   |   |   |   |   stdNNZPerRow <= 7.955374
+|   |   |   |   |   |   numberOfRows <= 5822
+|   |   |   |   |   |   |   isDiagonallyDominant = true
+|   |   |   |   |   |   |   |   stdNNZPerRow <= 1.273353
+|   |   |   |   |   |   |   |   |   isBlockDiagonal = true: structural problem (10.0)
+|   |   |   |   |   |   |   |   |   isBlockDiagonal = false
+|   |   |   |   |   |   |   |   |   |   numberOfRows <= 485: structural problem (7.0)
+|   |   |   |   |   |   |   |   |   |   numberOfRows > 485: 2D/3D problem (2.0)
+|   |   |   |   |   |   |   |   stdNNZPerRow > 1.273353
+|   |   |   |   |   |   |   |   |   numberOfRows <= 479: structural problem (2.0)
+|   |   |   |   |   |   |   |   |   numberOfRows > 479: power network problem (4.0)
+|   |   |   |   |   |   |   isDiagonallyDominant = false
+|   |   |   |   |   |   |   |   maxEig <= 11.337038
+|   |   |   |   |   |   |   |   |   maxEig <= 1.6101: 2D/3D problem (3.0/1.0)
+|   |   |   |   |   |   |   |   |   maxEig > 1.6101: electromagnetics problem (3.0)
+|   |   |   |   |   |   |   |   maxEig > 11.337038
+|   |   |   |   |   |   |   |   |   avgNNZPerRow <= 8.949352: structural problem (8.0)
+|   |   |   |   |   |   |   |   |   avgNNZPerRow > 8.949352
+|   |   |   |   |   |   |   |   |   |   avgNNZPerRow <= 13.072162: computational fluid dynamics problem (3.0)
+|   |   |   |   |   |   |   |   |   |   avgNNZPerRow > 13.072162: structural problem (4.0)
+|   |   |   |   |   |   numberOfRows > 5822
+|   |   |   |   |   |   |   stdNNZPerRow <= 5.917629
+|   |   |   |   |   |   |   |   avgNNZPerRow <= 10.665084
+|   |   |   |   |   |   |   |   |   stdNNZPerRow <= 0.579491
+|   |   |   |   |   |   |   |   |   |   avgNNZPerRow <= 5.84
+|   |   |   |   |   |   |   |   |   |   |   normalizedAvgNNZPerRow <= 0.000066: computational fluid dynamics problem (2.0)
+|   |   |   |   |   |   |   |   |   |   |   normalizedAvgNNZPerRow > 0.000066: optimization problem (4.0)
+|   |   |   |   |   |   |   |   |   |   avgNNZPerRow > 5.84: structural problem (6.0/1.0)
+|   |   |   |   |   |   |   |   |   stdNNZPerRow > 0.579491
+|   |   |   |   |   |   |   |   |   |   numberOfBlockFromDmPerm <= 2
+|   |   |   |   |   |   |   |   |   |   |   maxEig <= 33332.049665
+|   |   |   |   |   |   |   |   |   |   |   |   avgNNZPerRow <= 5.694845: optimization problem (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   avgNNZPerRow > 5.694845: 2D/3D problem (5.0)
+|   |   |   |   |   |   |   |   |   |   |   maxEig > 33332.049665: optimization problem (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   numberOfBlockFromDmPerm > 2: 2D/3D problem (9.0/2.0)
+|   |   |   |   |   |   |   |   avgNNZPerRow > 10.665084
+|   |   |   |   |   |   |   |   |   avgNNZPerRow <= 14.855174: computational fluid dynamics problem (5.0)
+|   |   |   |   |   |   |   |   |   avgNNZPerRow > 14.855174
+|   |   |   |   |   |   |   |   |   |   numberOfRows <= 82168: 2D/3D problem (2.0)
+|   |   |   |   |   |   |   |   |   |   numberOfRows > 82168: electromagnetics problem (2.0)
+|   |   |   |   |   |   |   stdNNZPerRow > 5.917629
+|   |   |   |   |   |   |   |   stdNNZPerRow <= 6.186704: power network problem (2.0)
+|   |   |   |   |   |   |   |   stdNNZPerRow > 6.186704: structural problem (2.0/1.0)
+|   |   |   |   |   stdNNZPerRow > 7.955374
+|   |   |   |   |   |   numberOfBlockFromDmPerm <= 323: optimization problem (57.0/2.0)
+|   |   |   |   |   |   numberOfBlockFromDmPerm > 323: computational fluid dynamics problem (2.0/1.0)
+|   |   |   |   avgNNZPerRow > 16.331226
+|   |   |   |   |   maxEig <= 2784.429466
+|   |   |   |   |   |   isBlockDiagonal = true
+|   |   |   |   |   |   |   numberOfRows <= 86204: structural problem (2.0)
+|   |   |   |   |   |   |   numberOfRows > 86204: 2D/3D problem (2.0)
+|   |   |   |   |   |   isBlockDiagonal = false
+|   |   |   |   |   |   |   numberOfRows <= 1280: structural problem (2.0)
+|   |   |   |   |   |   |   numberOfRows > 1280
+|   |   |   |   |   |   |   |   stdNNZPerRow <= 9.008927: computational fluid dynamics problem (6.0/1.0)
+|   |   |   |   |   |   |   |   stdNNZPerRow > 9.008927: 2D/3D problem (6.0/1.0)
+|   |   |   |   |   maxEig > 2784.429466
+|   |   |   |   |   |   numberOfRows <= 3432
+|   |   |   |   |   |   |   normalizedAvgNNZPerRow <= 0.011468: computational fluid dynamics problem (5.0)
+|   |   |   |   |   |   |   normalizedAvgNNZPerRow > 0.011468: structural problem (23.0/2.0)
+|   |   |   |   |   |   numberOfRows > 3432: structural problem (48.0)
+|   |   field = pattern
+|   |   |   avgNNZPerRow <= 6.803766
+|   |   |   |   stdNNZPerRow <= 0.953329
+|   |   |   |   |   normalizedAvgNNZPerRow <= 0.020583
+|   |   |   |   |   |   numberOfRows <= 48066
+|   |   |   |   |   |   |   stdNNZPerRow <= 0.063151: structural problem (2.0/1.0)
+|   |   |   |   |   |   |   stdNNZPerRow > 0.063151
+|   |   |   |   |   |   |   |   normalizedAvgNNZPerRow <= 0.001065
+|   |   |   |   |   |   |   |   |   isMaxEigNegative = true: 2D/3D problem (3.0)
+|   |   |   |   |   |   |   |   |   isMaxEigNegative = false
+|   |   |   |   |   |   |   |   |   |   stdNNZPerRow <= 0.267404: 2D/3D problem (5.0)
+|   |   |   |   |   |   |   |   |   |   stdNNZPerRow > 0.267404: undirected graph (6.0/1.0)
+|   |   |   |   |   |   |   |   normalizedAvgNNZPerRow > 0.001065: 2D/3D problem (18.0)
+|   |   |   |   |   |   numberOfRows > 48066
+|   |   |   |   |   |   |   numberOfRows <= 73752: undirected graph (2.0)
+|   |   |   |   |   |   |   numberOfRows > 73752: structural problem (2.0)
+|   |   |   |   |   normalizedAvgNNZPerRow > 0.020583
+|   |   |   |   |   |   isMaxEigNegative = true: undirected graph (3.0/1.0)
+|   |   |   |   |   |   isMaxEigNegative = false: structural problem (2.0)
+|   |   |   |   stdNNZPerRow > 0.953329
+|   |   |   |   |   numberOfBlockFromDmPerm <= 9
+|   |   |   |   |   |   avgNNZPerRow <= 5.9
+|   |   |   |   |   |   |   numberOfBlockFromDmPerm <= 1
+|   |   |   |   |   |   |   |   avgNNZPerRow <= 4.322884: power network problem (10.0/1.0)
+|   |   |   |   |   |   |   |   avgNNZPerRow > 4.322884: structural problem (5.0/1.0)
+|   |   |   |   |   |   |   numberOfBlockFromDmPerm > 1: structural problem (2.0/1.0)
+|   |   |   |   |   |   avgNNZPerRow > 5.9
+|   |   |   |   |   |   |   stdNNZPerRow <= 1.613193: undirected graph (7.0)
+|   |   |   |   |   |   |   stdNNZPerRow > 1.613193: structural problem (6.0/1.0)
+|   |   |   |   |   numberOfBlockFromDmPerm > 9
+|   |   |   |   |   |   numberOfRows <= 8846: undirected graph (13.0/2.0)
+|   |   |   |   |   |   numberOfRows > 8846: circuit simulation problem (5.0)
+|   |   |   avgNNZPerRow > 6.803766
+|   |   |   |   normalizedAvgNNZPerRow <= 0.000229
+|   |   |   |   |   stdNNZPerRow <= 5.621271
+|   |   |   |   |   |   stdNNZPerRow <= 3.203152: undirected graph (4.0)
+|   |   |   |   |   |   stdNNZPerRow > 3.203152: 2D/3D problem (3.0/1.0)
+|   |   |   |   |   stdNNZPerRow > 5.621271: optimization problem (2.0)
+|   |   |   |   normalizedAvgNNZPerRow > 0.000229
+|   |   |   |   |   stdNNZPerRow <= 13.475106
+|   |   |   |   |   |   maxEig <= 5.66292: undirected graph (3.0)
+|   |   |   |   |   |   maxEig > 5.66292: structural problem (71.0/5.0)
+|   |   |   |   |   stdNNZPerRow > 13.475106
+|   |   |   |   |   |   avgNNZPerRow <= 30.347764: optimization problem (5.0/1.0)
+|   |   |   |   |   |   avgNNZPerRow > 30.347764
+|   |   |   |   |   |   |   maxEig <= 295.46736
+|   |   |   |   |   |   |   |   isBlockDiagonal = true
+|   |   |   |   |   |   |   |   |   numberOfBlockFromDmPerm <= 2
+|   |   |   |   |   |   |   |   |   |   normalizedAvgNNZPerRow <= 0.001285: structural problem (2.0)
+|   |   |   |   |   |   |   |   |   |   normalizedAvgNNZPerRow > 0.001285: optimization problem (6.0)
+|   |   |   |   |   |   |   |   |   numberOfBlockFromDmPerm > 2: structural problem (5.0)
+|   |   |   |   |   |   |   |   isBlockDiagonal = false: structural problem (23.0/4.0)
+|   |   |   |   |   |   |   maxEig > 295.46736: optimization problem (5.0)
+|   |   field = integer
+|   |   |   normalizedAvgNNZPerRow <= 0.025738
+|   |   |   |   isDiagonallyDominant = true: 2D/3D problem (2.0/1.0)
+|   |   |   |   isDiagonallyDominant = false
+|   |   |   |   |   numberOfBlockFromDmPerm <= 1: structural problem (4.0)
+|   |   |   |   |   numberOfBlockFromDmPerm > 1
+|   |   |   |   |   |   numberOfRows <= 3200: structural problem (2.0)
+|   |   |   |   |   |   numberOfRows > 3200: 2D/3D problem (4.0)
+|   |   |   normalizedAvgNNZPerRow > 0.025738: undirected weighted graph (4.0)
+|   |   field = complex: electromagnetics problem (4.0)
+|   numberOfBlockFromDmPerm > 1934
+|   |   field = real
+|   |   |   numberOfConnectedComponent <= 2503: undirected weighted graph (6.0/1.0)
+|   |   |   numberOfConnectedComponent > 2503
+|   |   |   |   stdNNZPerRow <= 25.15201: structural problem (11.0/1.0)
+|   |   |   |   stdNNZPerRow > 25.15201: power network problem (2.0)
+|   |   field = pattern: undirected graph (17.0/1.0)
+|   |   field = integer: undirected weighted graph (39.0)
+|   |   field = complex: undirected weighted graph (0.0)
+symmetric = general
+|   field = real
+|   |   numberOfBlockFromDmPerm <= 9
+|   |   |   varNNZPerRow <= 766.924391
+|   |   |   |   numberOfRows <= 110355
+|   |   |   |   |   avgNNZPerRow <= 5.617021
+|   |   |   |   |   |   varNNZPerRow <= 1.338312
+|   |   |   |   |   |   |   avgNNZPerRow <= 4.783758
+|   |   |   |   |   |   |   |   maxEig <= 1429.768554
+|   |   |   |   |   |   |   |   |   numberOfRows <= 209: chemical process simulation problem (4.0)
+|   |   |   |   |   |   |   |   |   numberOfRows > 209: 2D/3D problem (2.0)
+|   |   |   |   |   |   |   |   maxEig > 1429.768554: computational fluid dynamics problem (4.0/1.0)
+|   |   |   |   |   |   |   avgNNZPerRow > 4.783758
+|   |   |   |   |   |   |   |   stdNNZPerRow <= 0.38382: 2D/3D problem (3.0)
+|   |   |   |   |   |   |   |   stdNNZPerRow > 0.38382
+|   |   |   |   |   |   |   |   |   numberOfRows <= 352: computational fluid dynamics problem (2.0)
+|   |   |   |   |   |   |   |   |   numberOfRows > 352: electromagnetics problem (10.0)
+|   |   |   |   |   |   varNNZPerRow > 1.338312
+|   |   |   |   |   |   |   maxEig <= 48.846221: circuit simulation problem (5.36/1.0)
+|   |   |   |   |   |   |   maxEig > 48.846221: computational fluid dynamics problem (9.64/2.64)
+|   |   |   |   |   avgNNZPerRow > 5.617021
+|   |   |   |   |   |   isBlockDiagonal = true
+|   |   |   |   |   |   |   isMaxEigNegative = true
+|   |   |   |   |   |   |   |   numberOfConnectedComponent <= 7: 2D/3D problem (10.0/1.0)
+|   |   |   |   |   |   |   |   numberOfConnectedComponent > 7: electromagnetics problem (3.0)
+|   |   |   |   |   |   |   isMaxEigNegative = false
+|   |   |   |   |   |   |   |   numberOfRows <= 839
+|   |   |   |   |   |   |   |   |   maxEig <= 7.331633: 2D/3D problem (3.0)
+|   |   |   |   |   |   |   |   |   maxEig > 7.331633: electromagnetics problem (3.0)
+|   |   |   |   |   |   |   |   numberOfRows > 839: computational fluid dynamics problem (12.0/1.0)
+|   |   |   |   |   |   isBlockDiagonal = false: computational fluid dynamics problem (37.0/2.0)
+|   |   |   |   numberOfRows > 110355
+|   |   |   |   |   stdNNZPerRow <= 0.501905: optimization problem (2.0)
+|   |   |   |   |   stdNNZPerRow > 0.501905: 2D/3D problem (4.0)
+|   |   |   varNNZPerRow > 766.924391
+|   |   |   |   avgNNZPerRow <= 87.579147
+|   |   |   |   |   normalizedAvgNNZPerRow <= 0.001065: 2D/3D problem (2.0)
+|   |   |   |   |   normalizedAvgNNZPerRow > 0.001065
+|   |   |   |   |   |   numberOfRows <= 16386: structural problem (5.0)
+|   |   |   |   |   |   numberOfRows > 16386
+|   |   |   |   |   |   |   avgNNZPerRow <= 68.450084: computational fluid dynamics problem (3.0)
+|   |   |   |   |   |   |   avgNNZPerRow > 68.450084: structural problem (4.0/1.0)
+|   |   |   |   avgNNZPerRow > 87.579147
+|   |   |   |   |   avgNNZPerRow <= 221.636925: economic problem (3.0/1.0)
+|   |   |   |   |   avgNNZPerRow > 221.636925: 2D/3D problem (3.0)
+|   |   numberOfBlockFromDmPerm > 9
+|   |   |   numberOfConnectedComponent <= 44
+|   |   |   |   isMaxEigNegative = true
+|   |   |   |   |   maxEig <= 79934.633755: chemical process simulation problem (33.0/4.0)
+|   |   |   |   |   maxEig > 79934.633755: power network problem (4.0/2.0)
+|   |   |   |   isMaxEigNegative = false
+|   |   |   |   |   isBlockDiagonal = true
+|   |   |   |   |   |   avgNNZPerRow <= 10.237443
+|   |   |   |   |   |   |   numberOfRows <= 425: chemical process simulation problem (5.0/1.0)
+|   |   |   |   |   |   |   numberOfRows > 425
+|   |   |   |   |   |   |   |   numberOfBlockFromDmPerm <= 27
+|   |   |   |   |   |   |   |   |   avgNNZPerRow <= 6: circuit simulation problem (3.0)
+|   |   |   |   |   |   |   |   |   avgNNZPerRow > 6: subsequent circuit simulation problem (4.0)
+|   |   |   |   |   |   |   |   numberOfBlockFromDmPerm > 27: subsequent circuit simulation problem (176.0/1.0)
+|   |   |   |   |   |   avgNNZPerRow > 10.237443
+|   |   |   |   |   |   |   numberOfConnectedComponent <= 14: structural problem (2.0/1.0)
+|   |   |   |   |   |   |   numberOfConnectedComponent > 14: chemical process simulation problem (8.0)
+|   |   |   |   |   isBlockDiagonal = false
+|   |   |   |   |   |   numberOfBlockFromDmPerm <= 961
+|   |   |   |   |   |   |   stdNNZPerRow <= 10.976127
+|   |   |   |   |   |   |   |   avgNNZPerRow <= 4.999967: chemical process simulation problem (3.0/1.0)
+|   |   |   |   |   |   |   |   avgNNZPerRow > 4.999967
+|   |   |   |   |   |   |   |   |   stdNNZPerRow <= 3.488902: 2D/3D problem (3.0)
+|   |   |   |   |   |   |   |   |   stdNNZPerRow > 3.488902: subsequent circuit simulation problem (3.0/2.0)
+|   |   |   |   |   |   |   stdNNZPerRow > 10.976127: circuit simulation problem (9.0/1.0)
+|   |   |   |   |   |   numberOfBlockFromDmPerm > 961: chemical process simulation problem (9.0)
+|   |   |   numberOfConnectedComponent > 44
+|   |   |   |   avgNNZPerRow <= 12.255487
+|   |   |   |   |   stdNNZPerRow <= 22.826154
+|   |   |   |   |   |   stdNNZPerRow <= 3.529458
+|   |   |   |   |   |   |   numberOfRows <= 6100: computational fluid dynamics problem (13.0/1.0)
+|   |   |   |   |   |   |   numberOfRows > 6100: power network problem (3.0/1.0)
+|   |   |   |   |   |   stdNNZPerRow > 3.529458
+|   |   |   |   |   |   |   numberOfRows <= 80800
+|   |   |   |   |   |   |   |   numberOfRows <= 4000
+|   |   |   |   |   |   |   |   |   numberOfConnectedComponent <= 129: economic problem (2.0)
+|   |   |   |   |   |   |   |   |   numberOfConnectedComponent > 129: computational fluid dynamics problem (7.0/1.0)
+|   |   |   |   |   |   |   |   numberOfRows > 4000
+|   |   |   |   |   |   |   |   |   avgNNZPerRow <= 4.915773
+|   |   |   |   |   |   |   |   |   |   avgNNZPerRow <= 3.083333: economic problem (4.0)
+|   |   |   |   |   |   |   |   |   |   avgNNZPerRow > 3.083333: circuit simulation problem (4.0)
+|   |   |   |   |   |   |   |   |   avgNNZPerRow > 4.915773: economic problem (48.0/1.0)
+|   |   |   |   |   |   |   numberOfRows > 80800: circuit simulation problem (6.0/1.0)
+|   |   |   |   |   stdNNZPerRow > 22.826154
+|   |   |   |   |   |   avgNNZPerRow <= 7.15: circuit simulation problem (12.0)
+|   |   |   |   |   |   avgNNZPerRow > 7.15
+|   |   |   |   |   |   |   isMaxEigNegative = true: 2D/3D problem (3.0)
+|   |   |   |   |   |   |   isMaxEigNegative = false: subsequent circuit simulation problem (2.0)
+|   |   |   |   avgNNZPerRow > 12.255487
+|   |   |   |   |   numberOfBlockFromDmPerm <= 3146
+|   |   |   |   |   |   isMaxEigNegative = true
+|   |   |   |   |   |   |   maxEig <= 65258.399977: power network problem (12.0/1.0)
+|   |   |   |   |   |   |   maxEig > 65258.399977: computational fluid dynamics problem (3.0)
+|   |   |   |   |   |   isMaxEigNegative = false
+|   |   |   |   |   |   |   numberOfConnectedComponent <= 177
+|   |   |   |   |   |   |   |   numberOfRows <= 1733: economic problem (3.0)
+|   |   |   |   |   |   |   |   numberOfRows > 1733: electromagnetics problem (2.0)
+|   |   |   |   |   |   |   numberOfConnectedComponent > 177: computational fluid dynamics problem (7.0/1.0)
+|   |   |   |   |   numberOfBlockFromDmPerm > 3146
+|   |   |   |   |   |   isDiagonal = true: structural problem (2.0)
+|   |   |   |   |   |   isDiagonal = false
+|   |   |   |   |   |   |   numberOfConnectedComponent <= 11091: chemical process simulation problem (9.0)
+|   |   |   |   |   |   |   numberOfConnectedComponent > 11091: computational fluid dynamics problem (2.0)
+|   field = pattern: directed graph (53.0/3.0)
+|   field = integer: economic problem (1.0)
+|   field = complex
+|   |   isMaxEigNegative = true: 2D/3D problem (5.0/1.0)
+|   |   isMaxEigNegative = false: electromagnetics problem (4.0)
+symmetric = skew-symmetric: 2D/3D problem (2.0)
+symmetric = hermitian: electromagnetics problem (1.0)
+
+Number of Leaves  : 	137
+
+Size of the tree : 	265
+
+
+Time taken to build model: 0.23 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1125               93.594  %
+Incorrectly Classified Instances        77                6.406  %
+Kappa statistic                          0.9279
+Mean absolute error                      0.0098
+Root mean squared error                  0.07  
+Relative absolute error                 11.5587 %
+Root relative squared error             33.9871 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0.003      0.984     1         0.992      1        subsequent circuit simulation problem
+                 0.961     0.021      0.924     0.961     0.942      0.994    structural problem
+                 0.939     0.008      0.912     0.939     0.925      0.997    optimization problem
+                 0.898     0.011      0.905     0.898     0.901      0.992    computational fluid dynamics problem
+                 0.893     0.004      0.909     0.893     0.901      0.997    undirected graph
+                 0.906     0.007      0.923     0.906     0.914      0.996    2D/3D problem
+                 0.962     0.003      0.943     0.962     0.952      0.998    directed graph
+                 0.956     0.005      0.915     0.956     0.935      0.997    chemical process simulation problem
+                 0.918     0.004      0.9       0.918     0.909      0.998    power network problem
+                 0.922     0.002      0.967     0.922     0.944      0.999    economic problem
+                 0.774     0.003      0.932     0.774     0.845      0.995    circuit simulation problem
+                 0         0          0         0         0          ?        subsequent computational fluid dynamics problem
+                 0         0          0         0         0          ?        subsequent theoretical/quantum chemistry problem
+                 0.875     0          1         0.875     0.933      0.998    electromagnetics problem
+                 0         0          0         0         0          ?        directed weighted graph
+                 0         0          0         0         0          ?        materials problem
+                 0         0          0         0         0          ?        eigenvalue/model reduction problem
+                 0         0          0         0         0          ?        model reduction problem
+                 0         0          0         0         0          ?        undirected random graph
+                 0         0          0         0         0          ?        thermal problem
+                 0.981     0.001      0.981     0.981     0.981      1        undirected weighted graph
+Weighted Avg.    0.936     0.008      0.936     0.936     0.935      0.996
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   m   n   o   p   q   r   s   t   u   <-- classified as
+ 182   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   a = subsequent circuit simulation problem
+   1 244   3   1   1   2   1   0   1   0   0   0   0   0   0   0   0   0   0   0   0 |   b = structural problem
+   0   4  93   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   c = optimization problem
+   0   6   1 114   0   1   0   1   2   1   1   0   0   0   0   0   0   0   0   0   0 |   d = computational fluid dynamics problem
+   0   5   0   0  50   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   e = undirected graph
+   0   2   2   3   1  96   1   0   0   0   0   0   0   0   0   0   0   0   0   0   1 |   f = 2D/3D problem
+   0   0   0   0   2   0  50   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   g = directed graph
+   1   0   0   1   0   0   0  65   0   0   1   0   0   0   0   0   0   0   0   0   0 |   h = chemical process simulation problem
+   0   1   1   1   0   0   0   0  45   0   1   0   0   0   0   0   0   0   0   0   0 |   i = power network problem
+   1   1   1   0   0   0   0   2   0  59   0   0   0   0   0   0   0   0   0   0   0 |   j = economic problem
+   0   1   1   5   1   0   1   2   1   0  41   0   0   0   0   0   0   0   0   0   0 |   k = circuit simulation problem
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   l = subsequent computational fluid dynamics problem
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   m = subsequent theoretical/quantum chemistry problem
+   0   0   0   1   0   1   0   1   1   1   0   0   0  35   0   0   0   0   0   0   0 |   n = electromagnetics problem
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   o = directed weighted graph
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   p = materials problem
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   q = eigenvalue/model reduction problem
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   r = model reduction problem
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   s = undirected random graph
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   t = thermal problem
+   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0  51 |   u = undirected weighted graph
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         893               74.2928 %
+Incorrectly Classified Instances       309               25.7072 %
+Kappa statistic                          0.7104
+Mean absolute error                      0.0265
+Root mean squared error                  0.145 
+Relative absolute error                 31.2129 %
+Root relative squared error             70.4322 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.978     0.01       0.947     0.978     0.962      0.99     subsequent circuit simulation problem
+                 0.787     0.07       0.752     0.787     0.769      0.889    structural problem
+                 0.758     0.025      0.728     0.758     0.743      0.913    optimization problem
+                 0.622     0.039      0.653     0.622     0.637      0.827    computational fluid dynamics problem
+                 0.589     0.015      0.66      0.589     0.623      0.847    undirected graph
+                 0.519     0.054      0.482     0.519     0.5        0.788    2D/3D problem
+                 0.962     0.003      0.943     0.962     0.952      0.978    directed graph
+                 0.779     0.023      0.671     0.779     0.721      0.876    chemical process simulation problem
+                 0.592     0.008      0.763     0.592     0.667      0.826    power network problem
+                 0.813     0.011      0.813     0.813     0.813      0.929    economic problem
+                 0.566     0.01       0.732     0.566     0.638      0.815    circuit simulation problem
+                 0         0          0         0         0          ?        subsequent computational fluid dynamics problem
+                 0         0          0         0         0          ?        subsequent theoretical/quantum chemistry problem
+                 0.4       0.017      0.444     0.4       0.421      0.856    electromagnetics problem
+                 0         0          0         0         0          ?        directed weighted graph
+                 0         0          0         0         0          ?        materials problem
+                 0         0          0         0         0          ?        eigenvalue/model reduction problem
+                 0         0          0         0         0          ?        model reduction problem
+                 0         0          0         0         0          ?        undirected random graph
+                 0         0          0         0         0          ?        thermal problem
+                 0.827     0.005      0.878     0.827     0.851      0.949    undirected weighted graph
+Weighted Avg.    0.743     0.031      0.743     0.743     0.741      0.89 
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   m   n   o   p   q   r   s   t   u   <-- classified as
+ 178   0   0   0   0   2   0   1   0   0   1   0   0   0   0   0   0   0   0   0   0 |   a = subsequent circuit simulation problem
+   1 200  13  10   7  15   1   2   2   0   1   0   0   2   0   0   0   0   0   0   0 |   b = structural problem
+   0  11  75   3   1   8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1 |   c = optimization problem
+   0  14   5  79   0   4   0   7   3   5   4   0   0   5   0   0   0   0   0   0   1 |   d = computational fluid dynamics problem
+   0  11   0   0  33  10   0   0   1   0   1   0   0   0   0   0   0   0   0   0   0 |   e = undirected graph
+   0  19   6   6   6  55   1   2   1   1   1   0   0   7   0   0   0   0   0   0   1 |   f = 2D/3D problem
+   0   0   0   0   1   1  50   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   g = directed graph
+   2   0   0   7   0   2   0  53   1   1   0   0   0   2   0   0   0   0   0   0   0 |   h = chemical process simulation problem
+   0   4   1   4   2   1   0   3  29   1   1   0   0   2   0   0   0   0   0   0   1 |   i = power network problem
+   4   0   0   3   0   1   0   2   0  52   1   0   0   0   0   0   0   0   0   0   1 |   j = economic problem
+   3   0   2   3   0   4   1   6   0   3  30   0   0   1   0   0   0   0   0   0   0 |   k = circuit simulation problem
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   l = subsequent computational fluid dynamics problem
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   m = subsequent theoretical/quantum chemistry problem
+   0   4   0   6   0   7   0   3   1   1   1   0   0  16   0   0   0   0   0   0   1 |   n = electromagnetics problem
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   o = directed weighted graph
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   p = materials problem
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   q = eigenvalue/model reduction problem
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   r = model reduction problem
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   s = undirected random graph
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   t = thermal problem
+   0   3   1   0   0   4   0   0   0   0   0   0   0   1   0   0   0   0   0   0  43 |   u = undirected weighted graph
+

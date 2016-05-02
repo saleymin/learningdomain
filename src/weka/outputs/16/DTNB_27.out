@@ -1,0 +1,269 @@
+
+Options: -X 1 -R 
+
+Decision Table:
+
+Number of training instances: 1202
+Number of Rules : 112
+Non matches covered by Majority class.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 2,3,6,8,11,13,14,15
+
+Rules:
+======================================================================================================================================================================================================================
+numberOfConnectedComponent numberOfBlockFromDmPerm    stdNNZPerRow               maxEig                     isBlockDiagonal            field                      symmetric                  is2D3DProblem  
+======================================================================================================================================================================================================================
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(15.484336-inf)'          true                       complex                    hermitian                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          false                      complex                    general                    0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(15.484336-inf)'          true                       complex                    general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          false                      integer                    general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(0.493838-2.921385]'      false                      complex                    general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          false                      complex                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(-inf-0.493838]'          false                      complex                    general                    0
+'(2.5-inf)'                '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          true                       complex                    symmetric                  0
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(15.484336-inf)'          false                      integer                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(2.921385-15.484336]'     false                      complex                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          false                      integer                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(-inf-0.493838]'          false                      complex                    general                    1
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(2.921385-15.484336]'     false                      integer                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(15.484336-inf)'          false                      integer                    symmetric                  1
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(2.921385-15.484336]'     false                      pattern                    general                    0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(15.484336-inf)'          true                       pattern                    general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(2.921385-15.484336]'     false                      integer                    symmetric                  0
+'(-inf-2.5]'               '(7.5-inf)'                '(0.047344-1.040731]'      '(2.921385-15.484336]'     false                      pattern                    general                    0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(15.484336-inf)'          true                       integer                    symmetric                  0
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(15.484336-inf)'          true                       integer                    symmetric                  0
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(15.484336-inf)'          false                      real                       general                    0
+'(2.5-inf)'                '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          true                       integer                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(-inf-0.047344]'          '(15.484336-inf)'          false                      integer                    symmetric                  0
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(15.484336-inf)'          false                      pattern                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          false                      real                       general                    0
+'(2.5-inf)'                '(7.5-inf)'                '(0.047344-1.040731]'      '(15.484336-inf)'          true                       integer                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(0.493838-2.921385]'      false                      pattern                    general                    0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(2.921385-15.484336]'     true                       pattern                    general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          false                      pattern                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(15.484336-inf)'          true                       integer                    symmetric                  0
+'(2.5-inf)'                '(-inf-7.5]'               '(1.040731-inf)'           '(2.921385-15.484336]'     true                       pattern                    general                    0
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(2.921385-15.484336]'     false                      real                       general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(15.484336-inf)'          false                      real                       general                    0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           ?                          true                       pattern                    general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(15.484336-inf)'          false                      pattern                    symmetric                  0
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(15.484336-inf)'          true                       real                       general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(0.493838-2.921385]'      false                      pattern                    general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(2.921385-15.484336]'     false                      real                       general                    0
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(2.921385-15.484336]'     false                      pattern                    symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(15.484336-inf)'          true                       real                       general                    0
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           ?                          false                      real                       general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          true                       real                       general                    0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(0.493838-2.921385]'      true                       pattern                    general                    0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(15.484336-inf)'          true                       pattern                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(-inf-0.047344]'          '(15.484336-inf)'          false                      real                       general                    0
+'(2.5-inf)'                '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          true                       real                       general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(2.921385-15.484336]'     false                      pattern                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           ?                          false                      real                       general                    0
+'(-inf-2.5]'               '(7.5-inf)'                '(0.047344-1.040731]'      '(2.921385-15.484336]'     false                      pattern                    symmetric                  1
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(2.921385-15.484336]'     false                      real                       general                    1
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(0.493838-2.921385]'      false                      real                       general                    0
+'(2.5-inf)'                '(-inf-7.5]'               '(1.040731-inf)'           '(0.493838-2.921385]'      true                       pattern                    general                    0
+'(2.5-inf)'                '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          true                       pattern                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          true                       pattern                    symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(-inf-0.493838]'          true                       real                       skew-symmetric             0
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(0.493838-2.921385]'      false                      pattern                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(15.484336-inf)'          true                       real                       general                    0
+'(2.5-inf)'                '(7.5-inf)'                '(0.047344-1.040731]'      '(0.493838-2.921385]'      true                       pattern                    general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(0.493838-2.921385]'      false                      real                       general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(2.921385-15.484336]'     false                      pattern                    symmetric                  1
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(2.921385-15.484336]'     true                       real                       general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          false                      real                       symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      ?                          false                      real                       general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(-inf-0.493838]'          false                      integer                    symmetric                  0
+'(2.5-inf)'                '(-inf-7.5]'               '(1.040731-inf)'           '(-inf-0.493838]'          true                       real                       skew-symmetric             0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(-inf-0.493838]'          true                       pattern                    general                    0
+'(2.5-inf)'                '(-inf-7.5]'               '(1.040731-inf)'           '(2.921385-15.484336]'     true                       real                       general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(2.921385-15.484336]'     true                       real                       general                    0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(2.921385-15.484336]'     true                       pattern                    symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           ?                          true                       real                       general                    0
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(-inf-0.493838]'          false                      real                       general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(2.921385-15.484336]'     true                       pattern                    symmetric                  0
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(2.921385-15.484336]'     false                      real                       symmetric                  1
+'(-inf-2.5]'               '(-inf-7.5]'               '(-inf-0.047344]'          '(2.921385-15.484336]'     false                      pattern                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(15.484336-inf)'          false                      real                       symmetric                  0
+'(2.5-inf)'                '(-inf-7.5]'               '(1.040731-inf)'           '(2.921385-15.484336]'     true                       pattern                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(0.493838-2.921385]'      false                      real                       general                    0
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(15.484336-inf)'          true                       real                       symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(0.047344-1.040731]'      '(2.921385-15.484336]'     true                       pattern                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(-inf-0.493838]'          false                      real                       general                    0
+'(-inf-2.5]'               '(7.5-inf)'                '(0.047344-1.040731]'      '(2.921385-15.484336]'     true                       pattern                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(2.921385-15.484336]'     false                      real                       symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(15.484336-inf)'          true                       real                       symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(0.493838-2.921385]'      true                       real                       general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(0.493838-2.921385]'      true                       real                       general                    0
+'(2.5-inf)'                '(-inf-7.5]'               '(0.047344-1.040731]'      '(-inf-0.493838]'          true                       pattern                    general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(-inf-0.047344]'          '(15.484336-inf)'          false                      real                       symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          true                       real                       symmetric                  0
+'(2.5-inf)'                '(-inf-7.5]'               '(1.040731-inf)'           '(15.484336-inf)'          true                       real                       symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(-inf-0.047344]'          '(0.493838-2.921385]'      false                      pattern                    symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(-inf-0.493838]'          false                      real                       general                    0
+'(-inf-2.5]'               '(7.5-inf)'                '(1.040731-inf)'           '(0.493838-2.921385]'      false                      real                       symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(2.921385-15.484336]'     false                      real                       symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(0.047344-1.040731]'      '(15.484336-inf)'          true                       real                       symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(15.484336-inf)'          true                       real                       symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(-inf-0.493838]'          true                       real                       general                    0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(0.493838-2.921385]'      false                      real                       symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(2.921385-15.484336]'     true                       real                       symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(-inf-0.047344]'          '(15.484336-inf)'          true                       real                       symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(0.493838-2.921385]'      false                      real                       symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(0.047344-1.040731]'      '(2.921385-15.484336]'     true                       real                       symmetric                  0
+'(2.5-inf)'                '(-inf-7.5]'               '(0.047344-1.040731]'      '(2.921385-15.484336]'     true                       real                       symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(-inf-0.493838]'          false                      real                       symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(1.040731-inf)'           '(0.493838-2.921385]'      true                       real                       symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(-inf-0.047344]'          '(2.921385-15.484336]'     true                       real                       symmetric                  0
+'(2.5-inf)'                '(-inf-7.5]'               '(1.040731-inf)'           '(0.493838-2.921385]'      true                       real                       symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(0.047344-1.040731]'      '(-inf-0.493838]'          false                      real                       symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(-inf-0.047344]'          '(-inf-0.493838]'          false                      real                       symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(-inf-0.047344]'          '(0.493838-2.921385]'      true                       real                       symmetric                  0
+'(-inf-2.5]'               '(-inf-7.5]'               '(1.040731-inf)'           '(-inf-0.493838]'          true                       real                       symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(0.047344-1.040731]'      '(-inf-0.493838]'          true                       real                       symmetric                  0
+'(2.5-inf)'                '(7.5-inf)'                '(-inf-0.047344]'          '(-inf-0.493838]'          true                       real                       symmetric                  0
+======================================================================================================================================================================================================================
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0      1
+                             (0.91) (0.09)
+===========================================
+numberOfRows
+  'All'                       1097.0  107.0
+  [total]                     1097.0  107.0
+
+numberOfConnectedComponent
+  '(-inf-2.5]'                 564.0   92.0
+  '(2.5-inf)'                  534.0   16.0
+  [total]                     1098.0  108.0
+
+numberOfBlockFromDmPerm
+  '(-inf-7.5]'                 498.0   92.0
+  '(7.5-inf)'                  600.0   16.0
+  [total]                     1098.0  108.0
+
+normalizedAvgNNZPerRow
+  'All'                       1097.0  107.0
+  [total]                     1097.0  107.0
+
+avgNNZPerRow
+  'All'                       1097.0  107.0
+  [total]                     1097.0  107.0
+
+stdNNZPerRow
+  '(-inf-0.047344]'             25.0    1.0
+  '(0.047344-1.040731]'         86.0   49.0
+  '(1.040731-inf)'             988.0   59.0
+  [total]                     1099.0  109.0
+
+varNNZPerRow
+  '(-inf-0.002249]'             25.0    1.0
+  '(0.002249-1.083134]'         86.0   49.0
+  '(1.083134-inf)'             988.0   59.0
+  [total]                     1099.0  109.0
+
+maxEig
+  '(-inf-0.493838]'             30.0   12.0
+  '(0.493838-2.921385]'        176.0    3.0
+  '(2.921385-15.484336]'       198.0   56.0
+  '(15.484336-inf)'            677.0   39.0
+  [total]                     1081.0  110.0
+
+isMaxEigNegative
+  true                         212.0   28.0
+  false                        886.0   80.0
+  [total]                     1098.0  108.0
+
+isDiagonallyDominant
+  true                          56.0    8.0
+  false                       1042.0  100.0
+  [total]                     1098.0  108.0
+
+isBlockDiagonal
+  true                         605.0   29.0
+  false                        493.0   79.0
+  [total]                     1098.0  108.0
+
+isDiagonal
+  true                          25.0    4.0
+  false                       1073.0  104.0
+  [total]                     1098.0  108.0
+
+field
+  real                         777.0   67.0
+  pattern                      260.0   32.0
+  integer                       52.0    6.0
+  complex                       11.0    5.0
+  [total]                     1100.0  110.0
+
+symmetric
+  symmetric                    532.0   66.0
+  general                      565.0   40.0
+  skew-symmetric                 1.0    3.0
+  hermitian                      2.0    1.0
+  [total]                     1100.0  110.0
+
+
+
+Time taken to build model: 1.44 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1114               92.6789 %
+Incorrectly Classified Instances        88                7.3211 %
+Kappa statistic                          0.488 
+Mean absolute error                      0.1469
+Root mean squared error                  0.2483
+Relative absolute error                 91.0055 %
+Root relative squared error             87.5524 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.972     0.538      0.949     0.972     0.96       0.876    0
+                 0.462     0.028      0.613     0.462     0.527      0.876    1
+Weighted Avg.    0.927     0.493      0.92      0.927     0.922      0.876
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1065   31 |    a = 0
+   57   49 |    b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1092               90.8486 %
+Incorrectly Classified Instances       110                9.1514 %
+Kappa statistic                          0.321 
+Mean absolute error                      0.1491
+Root mean squared error                  0.2679
+Relative absolute error                 92.3512 %
+Root relative squared error             94.4639 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.967     0.698      0.935     0.967     0.951      0.815    0
+                 0.302     0.033      0.471     0.302     0.368      0.815    1
+Weighted Avg.    0.908     0.639      0.894     0.908     0.899      0.815
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1060   36 |    a = 0
+   74   32 |    b = 1
+

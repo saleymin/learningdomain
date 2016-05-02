@@ -1,0 +1,49 @@
+ @RELATION matrixdomains
+
+   @ATTRIBUTE UFindex   NUMERIC
+   @ATTRIBUTE groupName   string
+   @ATTRIBUTE name   string
+
+   @ATTRIBUTE numberOfRows   NUMERIC
+   @ATTRIBUTE numberOfColumns   NUMERIC
+   @ATTRIBUTE isSymmectric   {true, false}
+   @ATTRIBUTE numberOfConnectedComponent   NUMERIC
+   @ATTRIBUTE numberOfBlockFromDmPerm   NUMERIC
+   @ATTRIBUTE normalizedAvgNNZPerRow   NUMERIC
+   @ATTRIBUTE avgNNZPerRow   NUMERIC
+   @ATTRIBUTE stdNNZPerRow   NUMERIC
+   @ATTRIBUTE varNNZPerRow   NUMERIC
+
+   @ATTRIBUTE maxEig   NUMERIC
+   @ATTRIBUTE isMaxEigNegative    {true, false}
+   @ATTRIBUTE isDiagonallyDominant   {true, false}
+   @ATTRIBUTE isBlockDiagonal   {true, false}
+   @ATTRIBUTE isDiagonal   {true, false}
+   %@ATTRIBUTE representation   {"coordinate"}
+   @ATTRIBUTE field   {"real","pattern" ,"integer", "complex"}  
+   @ATTRIBUTE symmetric   {"symmetric", "general", "skew-symmetric" , "hermitian"}
+
+   @ATTRIBUTE isSubsequentComputationalFluidDynamicsProblem   {0,1}
+   @ATTRIBUTE isEigenvalueModelReductionProblem   {0,1}
+   @ATTRIBUTE isModelReductionProblem    {0,1}
+   @ATTRIBUTE isUndirectedWeightedRandomGraph   {0,1}
+   @ATTRIBUTE isTheoreticalQuantumChemistryProblem {0,1}
+   @ATTRIBUTE isDirectedWeightedGraph   {0,1}
+   @ATTRIBUTE isElectromagneticsProblem {0,1}
+   @ATTRIBUTE isPowerNetworkProblem   {0,1}
+   @ATTRIBUTE isDirectedGraph   {0,1}
+   @ATTRIBUTE isUndirectedWeightedGraph {0,1}
+   @ATTRIBUTE isCircuitSimulationProblems   {0,1}
+   @ATTRIBUTE isUndirectedGraph    {0,1}
+   @ATTRIBUTE isEconomicProblem   {0,1}
+   @ATTRIBUTE isChemicalProcessSimulationProblem   {0,1}
+   @ATTRIBUTE isOptimizationProblem    {0,1}
+   @ATTRIBUTE is2D3DProblem    {0,1}
+   @ATTRIBUTE isComputationalFluidDynamicsProblem    {0,1}
+   @ATTRIBUTE isSubsequentCircuitSimulationProblem   {0,1}
+   @ATTRIBUTE isStructuralProblem    {0,1}
+
+   @ATTRIBUTE domain {"subsequent circuit simulation problem","structural problem","optimization problem","computational fluid dynamics problem","undirected graph","2D/3D problem","directed graph","chemical process simulation problem","power network problem","economic problem", "circuit simulation problem", "subsequent computational fluid dynamics problem", "subsequent theoretical/quantum chemistry problem", "electromagnetics problem", "directed weighted graph", "materials problem", "eigenvalue/model reduction problem", "model reduction problem", "undirected random graph", "thermal problem", "undirected weighted graph"}
+
+@data
+

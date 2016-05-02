@@ -1,0 +1,69 @@
+
+Options: -I 0 -M 500 -H 50 -W 0.0 
+
+SimpleLogistic:
+
+Class 0 :
+0    + 
+
+Class 1 :
+0    + 
+
+
+Time taken to build model: 0.27 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          87               94.5652 %
+Incorrectly Classified Instances         5                5.4348 %
+Kappa statistic                          0     
+Mean absolute error                      0.5   
+Root mean squared error                  0.5   
+Relative absolute error                449.4802 %
+Root relative squared error            220.3605 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         1          0.946     1         0.972      0.5      0
+                 0         0          0         0         0          0.5      1
+Weighted Avg.    0.946     0.946      0.894     0.946     0.919      0.5  
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 87  0 |  a = 0
+  5  0 |  b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          88               95.6522 %
+Incorrectly Classified Instances         4                4.3478 %
+Kappa statistic                          0.6441
+Mean absolute error                      0.1132
+Root mean squared error                  0.2435
+Relative absolute error                100.514  %
+Root relative squared error            106.6351 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.966     0.2        0.988     0.966     0.977      0.92     0
+                 0.8       0.034      0.571     0.8       0.667      0.92     1
+Weighted Avg.    0.957     0.191      0.966     0.957     0.96       0.92 
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 84  3 |  a = 0
+  1  4 |  b = 1
+

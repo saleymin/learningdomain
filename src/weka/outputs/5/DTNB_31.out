@@ -1,0 +1,148 @@
+
+Options: -X 1 -R 
+
+Decision Table:
+
+Number of training instances: 92
+Number of Rules : 1
+Non matches covered by Majority class.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 15
+
+Rules:
+=========================================================
+isSubsequentComputationalFluidDynamicsProblem  
+=========================================================
+0
+=========================================================
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0      1
+                             (0.99) (0.01)
+===========================================
+numberOfRows
+  'All'                         93.0    1.0
+  [total]                       93.0    1.0
+
+numberOfConnectedComponent
+  'All'                         93.0    1.0
+  [total]                       93.0    1.0
+
+numberOfBlockFromDmPerm
+  'All'                         93.0    1.0
+  [total]                       93.0    1.0
+
+normalizedAvgNNZPerRow
+  'All'                         93.0    1.0
+  [total]                       93.0    1.0
+
+avgNNZPerRow
+  'All'                         93.0    1.0
+  [total]                       93.0    1.0
+
+stdNNZPerRow
+  'All'                         93.0    1.0
+  [total]                       93.0    1.0
+
+varNNZPerRow
+  'All'                         93.0    1.0
+  [total]                       93.0    1.0
+
+maxEig
+  'All'                         90.0    1.0
+  [total]                       90.0    1.0
+
+isMaxEigNegative
+  true                          11.0    1.0
+  false                         83.0    1.0
+  [total]                       94.0    2.0
+
+isDiagonallyDominant
+  true                           5.0    1.0
+  false                         89.0    1.0
+  [total]                       94.0    2.0
+
+isBlockDiagonal
+  true                          64.0    1.0
+  false                         30.0    1.0
+  [total]                       94.0    2.0
+
+isDiagonal
+  true                           5.0    1.0
+  false                         89.0    1.0
+  [total]                       94.0    2.0
+
+field
+  real                          71.0    1.0
+  pattern                       23.0    1.0
+  integer                        1.0    1.0
+  complex                        1.0    1.0
+  [total]                       96.0    4.0
+
+symmetric
+  symmetric                     51.0    1.0
+  general                       43.0    1.0
+  skew-symmetric                 1.0    1.0
+  [total]                       95.0    3.0
+
+
+
+Time taken to build model: 0.23 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          92              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0108
+Root mean squared error                  0.0108
+Relative absolute error                101.0753 %
+Root relative squared error            101.0753 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          ?        0
+                 0         0          0         0         0          ?        1
+Weighted Avg.    1         0          1         1         1          0    
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 92  0 |  a = 0
+  0  0 |  b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          92              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0119
+Root mean squared error                  0.0119
+Relative absolute error                101.1936 %
+Root relative squared error            101.1937 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          ?        0
+                 0         0          0         0         0          ?        1
+Weighted Avg.    1         0          1         1         1          0    
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 92  0 |  a = 0
+  0  0 |  b = 1
+

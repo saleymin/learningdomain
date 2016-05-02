@@ -1,0 +1,103 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+field = real: 0 (842.0)
+field = pattern
+|   symmetric = symmetric
+|   |   numberOfConnectedComponent <= 180
+|   |   |   numberOfBlockFromDmPerm <= 166
+|   |   |   |   normalizedAvgNNZPerRow <= 0.000199: 1 (20.0/9.0)
+|   |   |   |   normalizedAvgNNZPerRow > 0.000199
+|   |   |   |   |   maxEig <= 6.280597
+|   |   |   |   |   |   stdNNZPerRow <= 2.614277
+|   |   |   |   |   |   |   maxEig <= 5.980065
+|   |   |   |   |   |   |   |   isMaxEigNegative = true
+|   |   |   |   |   |   |   |   |   maxEig <= 3.338127: 1 (2.0)
+|   |   |   |   |   |   |   |   |   maxEig > 3.338127: 0 (4.0)
+|   |   |   |   |   |   |   |   isMaxEigNegative = false: 0 (28.0/1.0)
+|   |   |   |   |   |   |   maxEig > 5.980065
+|   |   |   |   |   |   |   |   avgNNZPerRow <= 4.829508: 0 (2.0)
+|   |   |   |   |   |   |   |   avgNNZPerRow > 4.829508
+|   |   |   |   |   |   |   |   |   stdNNZPerRow <= 0.73088: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   stdNNZPerRow > 0.73088: 1 (4.0)
+|   |   |   |   |   |   stdNNZPerRow > 2.614277: 1 (6.0)
+|   |   |   |   |   maxEig > 6.280597: 0 (133.0/2.0)
+|   |   |   numberOfBlockFromDmPerm > 166
+|   |   |   |   isMaxEigNegative = true: 0 (2.0)
+|   |   |   |   isMaxEigNegative = false
+|   |   |   |   |   isBlockDiagonal = true: 1 (6.0)
+|   |   |   |   |   isBlockDiagonal = false
+|   |   |   |   |   |   numberOfBlockFromDmPerm <= 230: 0 (2.0)
+|   |   |   |   |   |   numberOfBlockFromDmPerm > 230: 1 (9.0)
+|   |   numberOfConnectedComponent > 180: 1 (16.0/2.0)
+|   symmetric = general: 0 (53.0)
+|   symmetric = skew-symmetric: 0 (0.0)
+|   symmetric = hermitian: 0 (0.0)
+field = integer: 0 (56.0)
+field = complex: 0 (14.0)
+
+Number of Leaves  : 	20
+
+Size of the tree : 	35
+
+
+Time taken to build model: 0.09 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1187               98.7521 %
+Incorrectly Classified Instances        15                1.2479 %
+Kappa statistic                          0.8674
+Mean absolute error                      0.0171
+Root mean squared error                  0.0926
+Relative absolute error                 19.1461 %
+Root relative squared error             43.9238 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.99      0.071      0.996     0.99      0.993      0.995    0
+                 0.929     0.01       0.825     0.929     0.874      0.995    1
+Weighted Avg.    0.988     0.069      0.989     0.988     0.988      0.995
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1135   11 |    a = 0
+    4   52 |    b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1161               96.589  %
+Incorrectly Classified Instances        41                3.411  %
+Kappa statistic                          0.6193
+Mean absolute error                      0.0407
+Root mean squared error                  0.1726
+Relative absolute error                 45.4795 %
+Root relative squared error             81.8794 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.982     0.357      0.983     0.982     0.982      0.921    0
+                 0.643     0.018      0.632     0.643     0.637      0.921    1
+Weighted Avg.    0.966     0.341      0.966     0.966     0.966      0.921
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1125   21 |    a = 0
+   20   36 |    b = 1
+

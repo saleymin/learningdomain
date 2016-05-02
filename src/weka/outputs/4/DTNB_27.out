@@ -1,0 +1,148 @@
+
+Options: -X 1 -R 
+
+Decision Table:
+
+Number of training instances: 92
+Number of Rules : 1
+Non matches covered by Majority class.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 15
+
+Rules:
+=========================
+is2D3DProblem  
+=========================
+0
+=========================
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0      1
+                             (0.95) (0.05)
+===========================================
+numberOfRows
+  'All'                         89.0    5.0
+  [total]                       89.0    5.0
+
+numberOfConnectedComponent
+  'All'                         89.0    5.0
+  [total]                       89.0    5.0
+
+numberOfBlockFromDmPerm
+  'All'                         89.0    5.0
+  [total]                       89.0    5.0
+
+normalizedAvgNNZPerRow
+  'All'                         89.0    5.0
+  [total]                       89.0    5.0
+
+avgNNZPerRow
+  'All'                         89.0    5.0
+  [total]                       89.0    5.0
+
+stdNNZPerRow
+  'All'                         89.0    5.0
+  [total]                       89.0    5.0
+
+varNNZPerRow
+  'All'                         89.0    5.0
+  [total]                       89.0    5.0
+
+maxEig
+  'All'                         86.0    5.0
+  [total]                       86.0    5.0
+
+isMaxEigNegative
+  true                          10.0    2.0
+  false                         80.0    4.0
+  [total]                       90.0    6.0
+
+isDiagonallyDominant
+  true                           5.0    1.0
+  false                         85.0    5.0
+  [total]                       90.0    6.0
+
+isBlockDiagonal
+  true                          62.0    3.0
+  false                         28.0    3.0
+  [total]                       90.0    6.0
+
+isDiagonal
+  true                           5.0    1.0
+  false                         85.0    5.0
+  [total]                       90.0    6.0
+
+field
+  real                          68.0    4.0
+  pattern                       22.0    2.0
+  integer                        1.0    1.0
+  complex                        1.0    1.0
+  [total]                       92.0    8.0
+
+symmetric
+  symmetric                     48.0    4.0
+  general                       42.0    2.0
+  skew-symmetric                 1.0    1.0
+  [total]                       91.0    7.0
+
+
+
+Time taken to build model: 0.24 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          88               95.6522 %
+Incorrectly Classified Instances         4                4.3478 %
+Kappa statistic                          0     
+Mean absolute error                      0.0926
+Root mean squared error                  0.2042
+Relative absolute error                100.5674 %
+Root relative squared error            100.0137 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         1          0.957     1         0.978      0.5      0
+                 0         0          0         0         0          0.5      1
+Weighted Avg.    0.957     0.957      0.915     0.957     0.935      0.5  
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 88  0 |  a = 0
+  4  0 |  b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          88               95.6522 %
+Incorrectly Classified Instances         4                4.3478 %
+Kappa statistic                          0     
+Mean absolute error                      0.0917
+Root mean squared error                  0.2052
+Relative absolute error                 98.1454 %
+Root relative squared error             99.7304 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         1          0.957     1         0.978      0.341    0
+                 0         0          0         0         0          0.341    1
+Weighted Avg.    0.957     0.957      0.915     0.957     0.935      0.341
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 88  0 |  a = 0
+  4  0 |  b = 1
+

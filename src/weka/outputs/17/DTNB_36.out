@@ -1,0 +1,199 @@
+
+Options: -X 1 -R 
+
+Decision Table:
+
+Number of training instances: 1202
+Number of Rules : 44
+Non matches covered by Majority class.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 5,6,8,9,14,15
+
+Rules:
+==================================================================================================================================================================================
+avgNNZPerRow                 stdNNZPerRow                 maxEig                       isMaxEigNegative             symmetric                    isPowerNetworkProblem  
+==================================================================================================================================================================================
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(3.888835-809.47682]'       false                        hermitian                    0
+'(101.028489-inf)'           '(102.116573-inf)'           '(522876.948871-inf)'        false                        general                      0
+'(-inf-101.028489]'          '(102.116573-inf)'           '(522876.948871-inf)'        false                        general                      0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(522876.948871-inf)'        false                        general                      0
+'(-inf-101.028489]'          '(102.116573-inf)'           '(882.514595-522876.948871]' false                        general                      0
+'(101.028489-inf)'           '(-inf-102.116573]'          '(882.514595-522876.948871]' false                        general                      0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(882.514595-522876.948871]' false                        general                      0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(522876.948871-inf)'        true                         general                      0
+'(-inf-101.028489]'          '(102.116573-inf)'           ?                            false                        general                      0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(-inf-3.888835]'            false                        skew-symmetric               0
+'(-inf-101.028489]'          '(102.116573-inf)'           '(882.514595-522876.948871]' true                         general                      0
+'(101.028489-inf)'           '(-inf-102.116573]'          '(522876.948871-inf)'        false                        symmetric                    0
+'(101.028489-inf)'           '(102.116573-inf)'           '(882.514595-522876.948871]' true                         general                      1
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(522876.948871-inf)'        false                        symmetric                    0
+'(-inf-101.028489]'          '(-inf-102.116573]'          ?                            false                        general                      0
+'(-inf-101.028489]'          '(102.116573-inf)'           '(3.888835-809.47682]'       false                        general                      0
+'(-inf-101.028489]'          '(102.116573-inf)'           '(882.514595-522876.948871]' false                        symmetric                    0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(882.514595-522876.948871]' true                         general                      0
+'(101.028489-inf)'           '(-inf-102.116573]'          '(882.514595-522876.948871]' false                        symmetric                    0
+'(101.028489-inf)'           '(102.116573-inf)'           '(809.47682-882.514595]'     true                         general                      1
+'(-inf-101.028489]'          '(102.116573-inf)'           '(522876.948871-inf)'        true                         symmetric                    0
+'(101.028489-inf)'           '(102.116573-inf)'           '(522876.948871-inf)'        true                         symmetric                    0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(882.514595-522876.948871]' false                        symmetric                    0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(3.888835-809.47682]'       false                        general                      0
+'(101.028489-inf)'           '(102.116573-inf)'           '(-inf-3.888835]'            false                        general                      0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(-inf-3.888835]'            true                         skew-symmetric               0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(809.47682-882.514595]'     true                         general                      1
+'(-inf-101.028489]'          '(102.116573-inf)'           '(-inf-3.888835]'            false                        general                      0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(522876.948871-inf)'        true                         symmetric                    0
+'(-inf-101.028489]'          '(102.116573-inf)'           '(882.514595-522876.948871]' true                         symmetric                    1
+'(101.028489-inf)'           '(102.116573-inf)'           '(882.514595-522876.948871]' true                         symmetric                    1
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(-inf-3.888835]'            false                        general                      0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(882.514595-522876.948871]' true                         symmetric                    0
+'(101.028489-inf)'           '(102.116573-inf)'           '(3.888835-809.47682]'       false                        symmetric                    0
+'(-inf-101.028489]'          '(102.116573-inf)'           '(3.888835-809.47682]'       false                        symmetric                    0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(3.888835-809.47682]'       true                         general                      0
+'(101.028489-inf)'           '(-inf-102.116573]'          '(3.888835-809.47682]'       false                        symmetric                    0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(3.888835-809.47682]'       false                        symmetric                    0
+'(-inf-101.028489]'          '(102.116573-inf)'           '(-inf-3.888835]'            false                        symmetric                    0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(-inf-3.888835]'            true                         general                      0
+'(-inf-101.028489]'          '(102.116573-inf)'           '(3.888835-809.47682]'       true                         symmetric                    0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(-inf-3.888835]'            false                        symmetric                    0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(3.888835-809.47682]'       true                         symmetric                    0
+'(-inf-101.028489]'          '(-inf-102.116573]'          '(-inf-3.888835]'            true                         symmetric                    0
+==================================================================================================================================================================================
+
+Naive Bayes Classifier
+
+                                  Class
+Attribute                             0      1
+                                 (0.96) (0.04)
+===============================================
+numberOfRows
+  'All'                           1154.0   50.0
+  [total]                         1154.0   50.0
+
+numberOfConnectedComponent
+  'All'                           1154.0   50.0
+  [total]                         1154.0   50.0
+
+numberOfBlockFromDmPerm
+  'All'                           1154.0   50.0
+  [total]                         1154.0   50.0
+
+normalizedAvgNNZPerRow
+  'All'                           1154.0   50.0
+  [total]                         1154.0   50.0
+
+avgNNZPerRow
+  '(-inf-101.028489]'             1125.0   39.0
+  '(101.028489-inf)'                30.0   12.0
+  [total]                         1155.0   51.0
+
+stdNNZPerRow
+  '(-inf-102.116573]'             1113.0   32.0
+  '(102.116573-inf)'                42.0   19.0
+  [total]                         1155.0   51.0
+
+varNNZPerRow
+  '(-inf-10427.813833]'           1113.0   32.0
+  '(10427.813833-inf)'              42.0   19.0
+  [total]                         1155.0   51.0
+
+maxEig
+  '(-inf-3.888835]'                262.0    1.0
+  '(3.888835-809.47682]'           422.0   14.0
+  '(809.47682-882.514595]'           2.0    7.0
+  '(882.514595-522876.948871]'     173.0   28.0
+  '(522876.948871-inf)'            280.0    4.0
+  [total]                         1139.0   54.0
+
+isMaxEigNegative
+  true                             210.0   30.0
+  false                            945.0   21.0
+  [total]                         1155.0   51.0
+
+isDiagonallyDominant
+  true                              59.0    5.0
+  false                           1096.0   46.0
+  [total]                         1155.0   51.0
+
+isBlockDiagonal
+  true                             602.0   32.0
+  false                            553.0   19.0
+  [total]                         1155.0   51.0
+
+isDiagonal
+  true                              28.0    1.0
+  false                           1127.0   50.0
+  [total]                         1155.0   51.0
+
+field
+  real                             805.0   39.0
+  pattern                          280.0   12.0
+  integer                           57.0    1.0
+  complex                           15.0    1.0
+  [total]                         1157.0   53.0
+
+symmetric
+  symmetric                        565.0   33.0
+  general                          587.0   18.0
+  skew-symmetric                     3.0    1.0
+  hermitian                          2.0    1.0
+  [total]                         1157.0   53.0
+
+
+
+Time taken to build model: 1.6 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1173               97.5874 %
+Incorrectly Classified Instances        29                2.4126 %
+Kappa statistic                          0.581 
+Mean absolute error                      0.0692
+Root mean squared error                  0.1619
+Relative absolute error                 87.6461 %
+Root relative squared error             81.8781 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.999     0.571      0.976     0.999     0.988      0.855    0
+                 0.429     0.001      0.955     0.429     0.592      0.855    1
+Weighted Avg.    0.976     0.548      0.975     0.976     0.971      0.855
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1152    1 |    a = 0
+   28   21 |    b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1165               96.9218 %
+Incorrectly Classified Instances        37                3.0782 %
+Kappa statistic                          0.4354
+Mean absolute error                      0.068 
+Root mean squared error                  0.1788
+Relative absolute error                 86.057  %
+Root relative squared error             90.399  %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.997     0.694      0.971     0.997     0.984      0.769    0
+                 0.306     0.003      0.833     0.306     0.448      0.769    1
+Weighted Avg.    0.969     0.666      0.966     0.969     0.962      0.769
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1150    3 |    a = 0
+   34   15 |    b = 1
+

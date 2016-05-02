@@ -1,0 +1,173 @@
+
+Options: -X 1 -R 
+
+Decision Table:
+
+Number of training instances: 1202
+Number of Rules : 18
+Non matches covered by Majority class.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 4,6,11,14,15
+
+Rules:
+=========================================================================================================================
+normalizedAvgNNZPerRow stdNNZPerRow           isBlockDiagonal        symmetric              isUndirectedGraph  
+=========================================================================================================================
+'(0.000591-inf)'       '(-inf-10.643789]'     true                   hermitian              0
+'(0.000591-inf)'       '(-inf-10.643789]'     true                   skew-symmetric         0
+'(-inf-0.000591]'      '(10.643789-inf)'      false                  general                0
+'(0.000591-inf)'       '(10.643789-inf)'      false                  general                0
+'(-inf-0.000591]'      '(-inf-10.643789]'     false                  general                0
+'(0.000591-inf)'       '(-inf-10.643789]'     false                  general                0
+'(-inf-0.000591]'      '(10.643789-inf)'      true                   general                0
+'(0.000591-inf)'       '(10.643789-inf)'      true                   general                0
+'(-inf-0.000591]'      '(10.643789-inf)'      false                  symmetric              0
+'(0.000591-inf)'       '(10.643789-inf)'      false                  symmetric              0
+'(-inf-0.000591]'      '(-inf-10.643789]'     true                   general                0
+'(0.000591-inf)'       '(-inf-10.643789]'     true                   general                0
+'(-inf-0.000591]'      '(-inf-10.643789]'     false                  symmetric              0
+'(0.000591-inf)'       '(-inf-10.643789]'     false                  symmetric              0
+'(-inf-0.000591]'      '(10.643789-inf)'      true                   symmetric              0
+'(0.000591-inf)'       '(10.643789-inf)'      true                   symmetric              0
+'(-inf-0.000591]'      '(-inf-10.643789]'     true                   symmetric              0
+'(0.000591-inf)'       '(-inf-10.643789]'     true                   symmetric              0
+=========================================================================================================================
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0      1
+                             (0.95) (0.05)
+===========================================
+numberOfRows
+  'All'                       1147.0   57.0
+  [total]                     1147.0   57.0
+
+numberOfConnectedComponent
+  'All'                       1147.0   57.0
+  [total]                     1147.0   57.0
+
+numberOfBlockFromDmPerm
+  '(-inf-43080.5]'            1144.0   50.0
+  '(43080.5-inf)'                4.0    8.0
+  [total]                     1148.0   58.0
+
+normalizedAvgNNZPerRow
+  '(-inf-0.000591]'            332.0   34.0
+  '(0.000591-inf)'             816.0   24.0
+  [total]                     1148.0   58.0
+
+avgNNZPerRow
+  '(-inf-21.123119]'           887.0   57.0
+  '(21.123119-inf)'            261.0    1.0
+  [total]                     1148.0   58.0
+
+stdNNZPerRow
+  '(-inf-10.643789]'           709.0   52.0
+  '(10.643789-inf)'            439.0    6.0
+  [total]                     1148.0   58.0
+
+varNNZPerRow
+  '(-inf-113.290287]'          709.0   52.0
+  '(113.290287-inf)'           439.0    6.0
+  [total]                     1148.0   58.0
+
+maxEig
+  '(-inf-2.908706]'            216.0    2.0
+  '(2.908706-73.669609]'       314.0   55.0
+  '(73.669609-inf)'            600.0    2.0
+  [total]                     1130.0   59.0
+
+isMaxEigNegative
+  true                         236.0    4.0
+  false                        912.0   54.0
+  [total]                     1148.0   58.0
+
+isDiagonallyDominant
+  true                          63.0    1.0
+  false                       1085.0   57.0
+  [total]                     1148.0   58.0
+
+isBlockDiagonal
+  true                         613.0   21.0
+  false                        535.0   37.0
+  [total]                     1148.0   58.0
+
+isDiagonal
+  true                          28.0    1.0
+  false                       1120.0   57.0
+  [total]                     1148.0   58.0
+
+field
+  real                         843.0    1.0
+  pattern                      235.0   57.0
+  integer                       57.0    1.0
+  complex                       15.0    1.0
+  [total]                     1150.0   60.0
+
+symmetric
+  symmetric                    541.0   57.0
+  general                      604.0    1.0
+  skew-symmetric                 3.0    1.0
+  hermitian                      2.0    1.0
+  [total]                     1150.0   60.0
+
+
+
+Time taken to build model: 1.63 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1157               96.2562 %
+Incorrectly Classified Instances        45                3.7438 %
+Kappa statistic                          0.3855
+Mean absolute error                      0.0714
+Root mean squared error                  0.1705
+Relative absolute error                 79.7216 %
+Root relative squared error             80.8934 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.997     0.732      0.965     0.997     0.981      0.967    0
+                 0.268     0.003      0.789     0.268     0.4        0.967    1
+Weighted Avg.    0.963     0.698      0.957     0.963     0.954      0.967
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1142    4 |    a = 0
+   41   15 |    b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1150               95.6739 %
+Incorrectly Classified Instances        52                4.3261 %
+Kappa statistic                          0.3153
+Mean absolute error                      0.0829
+Root mean squared error                  0.191 
+Relative absolute error                 92.5443 %
+Root relative squared error             90.623  %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.992     0.768      0.964     0.992     0.978      0.93     0
+                 0.232     0.008      0.591     0.232     0.333      0.93     1
+Weighted Avg.    0.957     0.732      0.946     0.957     0.948      0.93 
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1137    9 |    a = 0
+   43   13 |    b = 1
+

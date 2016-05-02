@@ -1,0 +1,211 @@
+
+Options: -X 1 -R 
+
+Decision Table:
+
+Number of training instances: 1202
+Number of Rules : 58
+Non matches covered by Majority class.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 3,5,6,8,11,14,15
+
+Rules:
+=================================================================================================================================================================================================
+numberOfBlockFromDmPerm   avgNNZPerRow              stdNNZPerRow              maxEig                    isBlockDiagonal           symmetric                 isElectromagneticsProblem  
+=================================================================================================================================================================================================
+'(149-inf)'               '(4.842476-inf)'          '(-inf-7.686938]'         '(2.689857-inf)'          true                      hermitian                 0
+'(149-inf)'               '(4.842476-inf)'          '(7.686938-inf)'          ?                         false                     general                   0
+'(149-inf)'               '(4.842476-inf)'          '(7.686938-inf)'          '(2.689857-inf)'          false                     general                   0
+'(-inf-149]'              '(4.842476-inf)'          '(7.686938-inf)'          '(2.689857-inf)'          false                     general                   0
+'(-inf-149]'              '(4.842476-inf)'          '(-inf-7.686938]'         ?                         false                     general                   0
+'(149-inf)'               '(-inf-4.842476]'         '(-inf-7.686938]'         ?                         false                     general                   0
+'(-inf-149]'              '(-inf-4.842476]'         '(-inf-7.686938]'         ?                         false                     general                   0
+'(149-inf)'               '(4.842476-inf)'          '(-inf-7.686938]'         '(2.689857-inf)'          false                     general                   0
+'(-inf-149]'              '(4.842476-inf)'          '(-inf-7.686938]'         '(2.689857-inf)'          false                     general                   0
+'(-inf-149]'              '(4.842476-inf)'          '(7.686938-inf)'          ?                         true                      general                   0
+'(149-inf)'               '(4.842476-inf)'          '(7.686938-inf)'          ?                         true                      general                   0
+'(149-inf)'               '(4.842476-inf)'          '(7.686938-inf)'          '(-inf-2.689857]'         false                     general                   0
+'(149-inf)'               '(-inf-4.842476]'         '(-inf-7.686938]'         '(2.689857-inf)'          false                     general                   0
+'(-inf-149]'              '(4.842476-inf)'          '(7.686938-inf)'          '(-inf-2.689857]'         false                     general                   0
+'(-inf-149]'              '(-inf-4.842476]'         '(-inf-7.686938]'         '(2.689857-inf)'          false                     general                   0
+'(149-inf)'               '(4.842476-inf)'          '(7.686938-inf)'          '(2.689857-inf)'          true                      general                   0
+'(-inf-149]'              '(4.842476-inf)'          '(7.686938-inf)'          '(2.689857-inf)'          true                      general                   0
+'(-inf-149]'              '(4.842476-inf)'          '(-inf-7.686938]'         ?                         true                      general                   1
+'(-inf-149]'              '(-inf-4.842476]'         '(-inf-7.686938]'         '(-inf-2.689857]'         true                      skew-symmetric            0
+'(-inf-149]'              '(4.842476-inf)'          '(-inf-7.686938]'         '(-inf-2.689857]'         false                     general                   1
+'(149-inf)'               '(-inf-4.842476]'         '(7.686938-inf)'          '(2.689857-inf)'          true                      general                   0
+'(149-inf)'               '(4.842476-inf)'          '(7.686938-inf)'          '(2.689857-inf)'          false                     symmetric                 0
+'(-inf-149]'              '(4.842476-inf)'          '(7.686938-inf)'          '(2.689857-inf)'          false                     symmetric                 0
+'(149-inf)'               '(-inf-4.842476]'         '(-inf-7.686938]'         ?                         true                      general                   0
+'(149-inf)'               '(-inf-4.842476]'         '(7.686938-inf)'          '(2.689857-inf)'          false                     symmetric                 0
+'(149-inf)'               '(-inf-4.842476]'         '(-inf-7.686938]'         '(-inf-2.689857]'         false                     general                   0
+'(-inf-149]'              '(-inf-4.842476]'         '(7.686938-inf)'          '(2.689857-inf)'          false                     symmetric                 0
+'(-inf-149]'              '(-inf-4.842476]'         '(-inf-7.686938]'         '(-inf-2.689857]'         false                     general                   0
+'(149-inf)'               '(4.842476-inf)'          '(-inf-7.686938]'         '(2.689857-inf)'          true                      general                   0
+'(-inf-149]'              '(4.842476-inf)'          '(-inf-7.686938]'         '(2.689857-inf)'          true                      general                   0
+'(-inf-149]'              '(4.842476-inf)'          '(7.686938-inf)'          '(-inf-2.689857]'         true                      general                   0
+'(149-inf)'               '(4.842476-inf)'          '(-inf-7.686938]'         '(2.689857-inf)'          false                     symmetric                 0
+'(-inf-149]'              '(-inf-4.842476]'         '(-inf-7.686938]'         '(2.689857-inf)'          true                      general                   0
+'(149-inf)'               '(-inf-4.842476]'         '(-inf-7.686938]'         '(2.689857-inf)'          true                      general                   0
+'(149-inf)'               '(4.842476-inf)'          '(7.686938-inf)'          '(-inf-2.689857]'         true                      general                   0
+'(-inf-149]'              '(4.842476-inf)'          '(-inf-7.686938]'         '(2.689857-inf)'          false                     symmetric                 0
+'(149-inf)'               '(-inf-4.842476]'         '(7.686938-inf)'          '(-inf-2.689857]'         true                      general                   0
+'(-inf-149]'              '(-inf-4.842476]'         '(-inf-7.686938]'         '(2.689857-inf)'          false                     symmetric                 0
+'(149-inf)'               '(-inf-4.842476]'         '(-inf-7.686938]'         '(2.689857-inf)'          false                     symmetric                 0
+'(-inf-149]'              '(4.842476-inf)'          '(7.686938-inf)'          '(-inf-2.689857]'         false                     symmetric                 0
+'(149-inf)'               '(4.842476-inf)'          '(-inf-7.686938]'         '(-inf-2.689857]'         true                      general                   0
+'(-inf-149]'              '(4.842476-inf)'          '(-inf-7.686938]'         '(-inf-2.689857]'         true                      general                   1
+'(149-inf)'               '(4.842476-inf)'          '(7.686938-inf)'          '(2.689857-inf)'          true                      symmetric                 0
+'(-inf-149]'              '(4.842476-inf)'          '(7.686938-inf)'          '(2.689857-inf)'          true                      symmetric                 0
+'(-inf-149]'              '(-inf-4.842476]'         '(7.686938-inf)'          '(2.689857-inf)'          true                      symmetric                 0
+'(149-inf)'               '(-inf-4.842476]'         '(7.686938-inf)'          '(2.689857-inf)'          true                      symmetric                 0
+'(149-inf)'               '(-inf-4.842476]'         '(-inf-7.686938]'         '(-inf-2.689857]'         true                      general                   0
+'(-inf-149]'              '(-inf-4.842476]'         '(-inf-7.686938]'         '(-inf-2.689857]'         true                      general                   0
+'(-inf-149]'              '(4.842476-inf)'          '(-inf-7.686938]'         '(-inf-2.689857]'         false                     symmetric                 0
+'(-inf-149]'              '(-inf-4.842476]'         '(-inf-7.686938]'         '(-inf-2.689857]'         false                     symmetric                 0
+'(-inf-149]'              '(4.842476-inf)'          '(-inf-7.686938]'         '(2.689857-inf)'          true                      symmetric                 0
+'(149-inf)'               '(4.842476-inf)'          '(-inf-7.686938]'         '(2.689857-inf)'          true                      symmetric                 0
+'(149-inf)'               '(-inf-4.842476]'         '(-inf-7.686938]'         '(2.689857-inf)'          true                      symmetric                 0
+'(-inf-149]'              '(4.842476-inf)'          '(7.686938-inf)'          '(-inf-2.689857]'         true                      symmetric                 0
+'(-inf-149]'              '(-inf-4.842476]'         '(-inf-7.686938]'         '(2.689857-inf)'          true                      symmetric                 0
+'(-inf-149]'              '(4.842476-inf)'          '(-inf-7.686938]'         '(-inf-2.689857]'         true                      symmetric                 1
+'(149-inf)'               '(-inf-4.842476]'         '(-inf-7.686938]'         '(-inf-2.689857]'         true                      symmetric                 0
+'(-inf-149]'              '(-inf-4.842476]'         '(-inf-7.686938]'         '(-inf-2.689857]'         true                      symmetric                 0
+=================================================================================================================================================================================================
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0      1
+                             (0.97) (0.03)
+===========================================
+numberOfRows
+  'All'                       1163.0   41.0
+  [total]                     1163.0   41.0
+
+numberOfConnectedComponent
+  'All'                       1163.0   41.0
+  [total]                     1163.0   41.0
+
+numberOfBlockFromDmPerm
+  '(-inf-149]'                 726.0   40.0
+  '(149-inf)'                  438.0    2.0
+  [total]                     1164.0   42.0
+
+normalizedAvgNNZPerRow
+  'All'                       1163.0   41.0
+  [total]                     1163.0   41.0
+
+avgNNZPerRow
+  '(-inf-4.842476]'            341.0    2.0
+  '(4.842476-inf)'             823.0   40.0
+  [total]                     1164.0   42.0
+
+stdNNZPerRow
+  '(-inf-7.686938]'            672.0   37.0
+  '(7.686938-inf)'             492.0    5.0
+  [total]                     1164.0   42.0
+
+varNNZPerRow
+  '(-inf-59.089048]'           672.0   37.0
+  '(59.089048-inf)'            492.0    5.0
+  [total]                     1164.0   42.0
+
+maxEig
+  '(-inf-2.689857]'            159.0   20.0
+  '(2.689857-inf)'             988.0   20.0
+  [total]                     1147.0   40.0
+
+isMaxEigNegative
+  true                         225.0   15.0
+  false                        939.0   27.0
+  [total]                     1164.0   42.0
+
+isDiagonallyDominant
+  true                          58.0    6.0
+  false                       1106.0   36.0
+  [total]                     1164.0   42.0
+
+isBlockDiagonal
+  true                         613.0   21.0
+  false                        551.0   21.0
+  [total]                     1164.0   42.0
+
+isDiagonal
+  true                          27.0    2.0
+  false                       1137.0   40.0
+  [total]                     1164.0   42.0
+
+field
+  real                         813.0   31.0
+  pattern                      291.0    1.0
+  integer                       57.0    1.0
+  complex                        5.0   11.0
+  [total]                     1166.0   44.0
+
+symmetric
+  symmetric                    585.0   13.0
+  general                      577.0   28.0
+  skew-symmetric                 3.0    1.0
+  hermitian                      1.0    2.0
+  [total]                     1166.0   44.0
+
+
+
+Time taken to build model: 1.52 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1177               97.9201 %
+Incorrectly Classified Instances        25                2.0799 %
+Kappa statistic                          0.6806
+Mean absolute error                      0.0578
+Root mean squared error                  0.1388
+Relative absolute error                 88.8194 %
+Root relative squared error             77.3726 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.989     0.3        0.99      0.989     0.989      0.965    0
+                 0.7       0.011      0.683     0.7       0.691      0.965    1
+Weighted Avg.    0.979     0.29       0.979     0.979     0.979      0.965
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1149   13 |    a = 0
+   12   28 |    b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1165               96.9218 %
+Incorrectly Classified Instances        37                3.0782 %
+Kappa statistic                          0.3792
+Mean absolute error                      0.0661
+Root mean squared error                  0.1714
+Relative absolute error                101.4985 %
+Root relative squared error             95.55   %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.992     0.7        0.976     0.992     0.984      0.859    0
+                 0.3       0.008      0.571     0.3       0.393      0.859    1
+Weighted Avg.    0.969     0.677      0.963     0.969     0.965      0.859
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1153    9 |    a = 0
+   28   12 |    b = 1
+

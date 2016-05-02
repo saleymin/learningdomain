@@ -1,0 +1,89 @@
+
+Options: -I 0 -M 500 -H 50 -W 0.0 
+
+SimpleLogistic:
+
+Class 0 :
+0.25 + 
+[numberOfRows] * 0    +
+[numberOfBlockFromDmPerm] * 0    +
+[normalizedAvgNNZPerRow] * 27.91 +
+[avgNNZPerRow] * 0.28 +
+[stdNNZPerRow] * -0.04 +
+[isMaxEigNegative] * -2.26 +
+[isBlockDiagonal] * 1.33 +
+[field=real] * -0.81 +
+[symmetric=symmetric] * 3.92 +
+[symmetric=general] * -0.56
+
+Class 1 :
+-0.29 + 
+[numberOfRows] * 0    +
+[numberOfBlockFromDmPerm] * 0    +
+[normalizedAvgNNZPerRow] * -27.91 +
+[avgNNZPerRow] * -0.28 +
+[stdNNZPerRow] * 0.04 +
+[isMaxEigNegative] * 2.26 +
+[isBlockDiagonal] * -1.33 +
+[field=real] * 0.81 +
+[symmetric=symmetric] * -3.88 +
+[symmetric=general] * 0.6 
+
+
+Time taken to build model: 0.31 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          92              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0135
+Root mean squared error                  0.0324
+Relative absolute error                  4.612  %
+Root relative squared error              8.5439 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        0
+                 1         0          1         1         1          1        1
+Weighted Avg.    1         0          1         1         1          1    
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 76  0 |  a = 0
+  0 16 |  b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          87               94.5652 %
+Incorrectly Classified Instances         5                5.4348 %
+Kappa statistic                          0.8316
+Mean absolute error                      0.0792
+Root mean squared error                  0.1969
+Relative absolute error                 27.0496 %
+Root relative squared error             51.8298 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.934     0          1         0.934     0.966      0.98     0
+                 1         0.066      0.762     1         0.865      0.98     1
+Weighted Avg.    0.946     0.011      0.959     0.946     0.948      0.98 
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 71  5 |  a = 0
+  0 16 |  b = 1
+

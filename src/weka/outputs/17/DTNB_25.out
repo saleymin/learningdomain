@@ -1,0 +1,329 @@
+
+Options: -X 1 -R 
+
+Decision Table:
+
+Number of training instances: 1202
+Number of Rules : 173
+Non matches covered by Majority class.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 3,4,6,8,9,10,11,13,14,15
+
+Rules:
+===================================================================================================================================================================================================================================================================================================================================================================================
+numberOfBlockFromDmPerm             normalizedAvgNNZPerRow              stdNNZPerRow                        maxEig                              isMaxEigNegative                    isDiagonallyDominant                isBlockDiagonal                     field                               symmetric                           isComputationalFluidDynamicsProblem  
+===================================================================================================================================================================================================================================================================================================================================================================================
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                complex                             hermitian                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               complex                             general                             0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               complex                             general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               false                               complex                             general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               false                               integer                             general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               false                               complex                             general                             0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               false                               complex                             general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               true                                complex                             general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               complex                             symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(-inf-1.005276]'                   true                                false                               false                               complex                             general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               false                               complex                             symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                complex                             symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               integer                             symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               integer                             symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               integer                             symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               integer                             symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               pattern                             general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               pattern                             general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               integer                             symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               integer                             symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               true                                pattern                             general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               false                               real                                general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               false                               integer                             symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               false                               real                                general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               false                               real                                general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               true                                false                               integer                             symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               false                               integer                             symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               false                               pattern                             symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                pattern                             general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(68.918777-inf)'                   ?                                   false                               false                               false                               real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                integer                             symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                pattern                             general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                integer                             symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               false                               pattern                             symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               real                                general                             1
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               real                                general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               real                                general                             0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               false                               integer                             symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               real                                general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                integer                             symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               pattern                             symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  ?                                   false                               false                               false                               real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  ?                                   false                               false                               false                               real                                general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  ?                                   false                               false                               true                                pattern                             general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   true                                false                               false                               real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   true                                false                               false                               real                                general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               true                                pattern                             general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               pattern                             symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               pattern                             symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               true                                pattern                             general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  ?                                   false                               false                               false                               real                                general                             0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  ?                                   false                               false                               false                               real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               real                                general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   true                                false                               false                               pattern                             symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               real                                general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               true                                pattern                             general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(68.918777-inf)'                   '(-inf-1.005276]'                   false                               false                               false                               real                                general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               true                                real                                skew-symmetric                      0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               false                               real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               true                                real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               pattern                             symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               false                               real                                general                             1
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               pattern                             symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               false                               real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(68.918777-inf)'                   '(1.005276-15.058463]'              true                                false                               false                               real                                general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               true                                integer                             symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               true                                pattern                             symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               true                                pattern                             general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               pattern                             symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               pattern                             symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               true                                real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               false                               real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               true                                pattern                             general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               true                                pattern                             symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               false                               real                                general                             1
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                real                                general                             1
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               false                               real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                real                                general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(68.918777-inf)'                   ?                                   false                               false                               true                                real                                general                             0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               false                               real                                general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               false                               real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(68.918777-inf)'                   '(1.005276-15.058463]'              false                               false                               true                                real                                general                             0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                real                                general                             1
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               false                               real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               false                               real                                general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               true                                pattern                             general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                pattern                             symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                pattern                             symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  ?                                   false                               false                               true                                real                                general                             0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                pattern                             symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   true                                false                               true                                real                                skew-symmetric                      0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               false                               real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               false                               pattern                             symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               false                               pattern                             symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                pattern                             symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   true                                false                               true                                real                                general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               real                                symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  ?                                   false                               false                               true                                real                                general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               false                               pattern                             symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               false                               pattern                             symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                true                                false                               real                                general                             1
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   true                                false                               true                                pattern                             general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(68.918777-inf)'                   '(15.058463-inf)'                   true                                false                               true                                real                                general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               real                                symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               true                                real                                general                             0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               false                               real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               true                                real                                general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   true                                false                               false                               real                                general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               true                                pattern                             symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(-inf-1.005276]'                   true                                false                               true                                pattern                             general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   true                                false                               false                               real                                general                             0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(68.918777-inf)'                   '(1.005276-15.058463]'              false                               false                               false                               real                                symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               true                                real                                general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               true                                real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(68.918777-inf)'                   '(-inf-1.005276]'                   false                               false                               true                                real                                general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   true                                false                               false                               real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               true                                pattern                             symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               true                                real                                general                             0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               true                                true                                real                                general                             1
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               true                                real                                general                             0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(68.918777-inf)'                   '(15.058463-inf)'                   true                                false                               false                               real                                symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               true                                pattern                             symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               true                                false                               real                                general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               true                                real                                general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               real                                symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               true                                pattern                             symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               true                                real                                general                             1
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               false                               real                                symmetric                           1
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               false                               real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               true                                real                                symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               false                               real                                symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               true                                real                                symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               true                                false                               real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               true                                real                                general                             0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(68.918777-inf)'                   '(15.058463-inf)'                   false                               false                               true                                real                                symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               true                                real                                general                             0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               false                               real                                symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                real                                symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               true                                false                               real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                real                                symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                real                                symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               false                               real                                symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               false                               true                                real                                symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               true                                false                               real                                symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               false                               real                                symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(68.918777-inf)'                   '(15.058463-inf)'                   true                                false                               true                                real                                symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                true                                false                               real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               true                                real                                symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(68.918777-inf)'                   '(15.058463-inf)'                   true                                false                               true                                real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   true                                false                               false                               real                                symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               true                                real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               true                                real                                symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               false                               true                                real                                symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               true                                false                               real                                symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   true                                false                               true                                real                                symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(-inf-1.005276]'                   true                                false                               false                               real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               true                                true                                real                                symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               true                                real                                symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(15.058463-inf)'                   false                               true                                true                                real                                symmetric                           0
+'(-inf-2.5]'                        '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               true                                false                               real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               true                                real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               true                                real                                symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               false                               true                                real                                symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                false                               true                                real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               true                                true                                real                                symmetric                           0
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(1.005276-15.058463]'              false                               true                                true                                real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               true                                true                                real                                symmetric                           0
+'(2.5-inf)'                         '(0.000548-inf)'                    '(-inf-68.918777]'                  '(1.005276-15.058463]'              true                                true                                true                                real                                symmetric                           1
+'(2.5-inf)'                         '(-inf-0.000548]'                   '(-inf-68.918777]'                  '(-inf-1.005276]'                   false                               true                                true                                real                                symmetric                           0
+'(-inf-2.5]'                        '(0.000548-inf)'                    '(-inf-68.918777]'                  '(-inf-1.005276]'                   true                                true                                true                                real                                symmetric                           0
+===================================================================================================================================================================================================================================================================================================================================================================================
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0      1
+                             (0.89) (0.11)
+===========================================
+numberOfRows
+  'All'                       1076.0  128.0
+  [total]                     1076.0  128.0
+
+numberOfConnectedComponent
+  'All'                       1076.0  128.0
+  [total]                     1076.0  128.0
+
+numberOfBlockFromDmPerm
+  '(-inf-2.5]'                 448.0   87.0
+  '(2.5-inf)'                  629.0   42.0
+  [total]                     1077.0  129.0
+
+normalizedAvgNNZPerRow
+  '(-inf-0.000548]'            343.0   13.0
+  '(0.000548-inf)'             734.0  116.0
+  [total]                     1077.0  129.0
+
+avgNNZPerRow
+  '(-inf-18.18416]'            851.0   72.0
+  '(18.18416-30.884796]'        59.0   34.0
+  '(30.884796-inf)'            168.0   24.0
+  [total]                     1078.0  130.0
+
+stdNNZPerRow
+  '(-inf-68.918777]'           991.0  128.0
+  '(68.918777-inf)'             86.0    1.0
+  [total]                     1077.0  129.0
+
+varNNZPerRow
+  '(-inf-4749.852381]'         991.0  128.0
+  '(4749.852381-inf)'           86.0    1.0
+  [total]                     1077.0  129.0
+
+maxEig
+  '(-inf-1.005276]'             55.0   14.0
+  '(1.005276-15.058463]'       387.0   13.0
+  '(15.058463-inf)'            617.0  103.0
+  [total]                     1059.0  130.0
+
+isMaxEigNegative
+  true                         190.0   50.0
+  false                        887.0   79.0
+  [total]                     1077.0  129.0
+
+isDiagonallyDominant
+  true                          53.0   11.0
+  false                       1024.0  118.0
+  [total]                     1077.0  129.0
+
+isBlockDiagonal
+  true                         579.0   55.0
+  false                        498.0   74.0
+  [total]                     1077.0  129.0
+
+isDiagonal
+  true                          28.0    1.0
+  false                       1049.0  128.0
+  [total]                     1077.0  129.0
+
+field
+  real                         719.0  125.0
+  pattern                      288.0    4.0
+  integer                       57.0    1.0
+  complex                       15.0    1.0
+  [total]                     1079.0  131.0
+
+symmetric
+  symmetric                    567.0   31.0
+  general                      507.0   98.0
+  skew-symmetric                 3.0    1.0
+  hermitian                      2.0    1.0
+  [total]                     1079.0  131.0
+
+
+
+Time taken to build model: 1.25 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1120               93.178  %
+Incorrectly Classified Instances        82                6.822  %
+Kappa statistic                          0.5632
+Mean absolute error                      0.1903
+Root mean squared error                  0.2756
+Relative absolute error                100.4444 %
+Root relative squared error             89.6456 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.985     0.52       0.941     0.985     0.963      0.862    0
+                 0.48      0.015      0.792     0.48      0.598      0.862    1
+Weighted Avg.    0.932     0.466      0.926     0.932     0.924      0.862
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1059   16 |    a = 0
+   66   61 |    b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1099               91.4309 %
+Incorrectly Classified Instances       103                8.5691 %
+Kappa statistic                          0.4839
+Mean absolute error                      0.1675
+Root mean squared error                  0.2698
+Relative absolute error                 88.3741 %
+Root relative squared error             87.7531 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.968     0.543      0.938     0.968     0.953      0.831    0
+                 0.457     0.032      0.63      0.457     0.53       0.831    1
+Weighted Avg.    0.914     0.489      0.905     0.914     0.908      0.831
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1041   34 |    a = 0
+   69   58 |    b = 1
+

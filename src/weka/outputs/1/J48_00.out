@@ -1,0 +1,178 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+isMaxEigNegative = true
+|   isBlockDiagonal = true
+|   |   numberOfRows <= 6136: computational fluid dynamics problem (3.0/2.0)
+|   |   numberOfRows > 6136: power network problem (4.0/1.0)
+|   isBlockDiagonal = false: chemical process simulation problem (3.0/1.0)
+isMaxEigNegative = false
+|   symmetric = symmetric
+|   |   field = real
+|   |   |   numberOfRows <= 179860
+|   |   |   |   stdNNZPerRow <= 14.452765
+|   |   |   |   |   isBlockDiagonal = true: structural problem (12.0)
+|   |   |   |   |   isBlockDiagonal = false
+|   |   |   |   |   |   avgNNZPerRow <= 13.907947: optimization problem (3.0/1.0)
+|   |   |   |   |   |   avgNNZPerRow > 13.907947
+|   |   |   |   |   |   |   maxEig <= 1235.50692: computational fluid dynamics problem (2.0)
+|   |   |   |   |   |   |   maxEig > 1235.50692: structural problem (6.0)
+|   |   |   |   stdNNZPerRow > 14.452765: optimization problem (3.0)
+|   |   |   numberOfRows > 179860: 2D/3D problem (2.0)
+|   |   field = pattern
+|   |   |   numberOfBlockFromDmPerm <= 9: structural problem (10.0/1.0)
+|   |   |   numberOfBlockFromDmPerm > 9: undirected graph (8.0/2.0)
+|   |   field = integer: structural problem (0.0)
+|   |   field = complex: structural problem (0.0)
+|   symmetric = general
+|   |   numberOfRows <= 2000
+|   |   |   normalizedAvgNNZPerRow <= 0.012567: subsequent circuit simulation problem (16.0)
+|   |   |   normalizedAvgNNZPerRow > 0.012567: structural problem (2.0)
+|   |   numberOfRows > 2000
+|   |   |   numberOfConnectedComponent <= 1652
+|   |   |   |   maxEig <= 169525.735456: computational fluid dynamics problem (6.6/1.6)
+|   |   |   |   maxEig > 169525.735456: circuit simulation problem (4.4)
+|   |   |   numberOfConnectedComponent > 1652
+|   |   |   |   field = real: economic problem (4.0)
+|   |   |   |   field = pattern: directed graph (3.0)
+|   |   |   |   field = integer: economic problem (0.0)
+|   |   |   |   field = complex: economic problem (0.0)
+|   symmetric = skew-symmetric: structural problem (0.0)
+
+Number of Leaves  : 	22
+
+Size of the tree : 	38
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          83               90.2174 %
+Incorrectly Classified Instances         9                9.7826 %
+Kappa statistic                          0.8819
+Mean absolute error                      0.0148
+Root mean squared error                  0.0852
+Relative absolute error                 17.4803 %
+Root relative squared error             41.8358 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        subsequent circuit simulation problem
+                 0.935     0.016      0.967     0.935     0.951      0.993    structural problem
+                 1         0.011      0.833     1         0.909      0.998    optimization problem
+                 0.889     0.036      0.727     0.889     0.8        0.986    computational fluid dynamics problem
+                 1         0.023      0.75      1         0.857      0.988    undirected graph
+                 0.5       0          1         0.5       0.667      0.979    2D/3D problem
+                 1         0          1         1         1          1        directed graph
+                 1         0.011      0.667     1         0.8        0.994    chemical process simulation problem
+                 1         0.011      0.75      1         0.857      0.994    power network problem
+                 0.8       0          1         0.8       0.889      0.997    economic problem
+                 0.714     0          1         0.714     0.833      0.982    circuit simulation problem
+                 0         0          0         0         0          ?        subsequent computational fluid dynamics problem
+                 0         0          0         0         0          ?        subsequent theoretical/quantum chemistry problem
+                 0         0          0         0         0          0.989    electromagnetics problem
+                 0         0          0         0         0          ?        directed weighted graph
+                 0         0          0         0         0          ?        materials problem
+                 0         0          0         0         0          ?        eigenvalue/model reduction problem
+                 0         0          0         0         0          ?        model reduction problem
+                 0         0          0         0         0          ?        undirected random graph
+                 0         0          0         0         0          ?        thermal problem
+Weighted Avg.    0.902     0.012      0.91      0.902     0.897      0.992
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+ 16  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = subsequent circuit simulation problem
+  0 29  1  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = structural problem
+  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = optimization problem
+  0  0  0  8  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0 |  d = computational fluid dynamics problem
+  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = undirected graph
+  0  1  0  1  0  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = 2D/3D problem
+  0  0  0  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = directed graph
+  0  0  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0  0  0 |  h = chemical process simulation problem
+  0  0  0  0  0  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0 |  i = power network problem
+  0  0  0  0  0  0  0  0  1  4  0  0  0  0  0  0  0  0  0  0 |  j = economic problem
+  0  0  0  1  1  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0 |  k = circuit simulation problem
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  l = subsequent computational fluid dynamics problem
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  m = subsequent theoretical/quantum chemistry problem
+  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  n = electromagnetics problem
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  o = directed weighted graph
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  p = materials problem
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  q = eigenvalue/model reduction problem
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  r = model reduction problem
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  s = undirected random graph
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  t = thermal problem
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          63               68.4783 %
+Incorrectly Classified Instances        29               31.5217 %
+Kappa statistic                          0.6133
+Mean absolute error                      0.0365
+Root mean squared error                  0.1681
+Relative absolute error                 42.8616 %
+Root relative squared error             82.2411 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0.026      0.889     1         0.941      0.997    subsequent circuit simulation problem
+                 0.774     0.164      0.706     0.774     0.738      0.848    structural problem
+                 0.2       0.034      0.25      0.2       0.222      0.928    optimization problem
+                 0.222     0.048      0.333     0.222     0.267      0.697    computational fluid dynamics problem
+                 0.833     0.023      0.714     0.833     0.769      0.898    undirected graph
+                 0         0.023      0         0         0          0.5      2D/3D problem
+                 1         0.011      0.75      1         0.857      0.994    directed graph
+                 0.5       0.011      0.5       0.5       0.5        0.742    chemical process simulation problem
+                 0.667     0.011      0.667     0.667     0.667      0.828    power network problem
+                 0.8       0.011      0.8       0.8       0.8        0.89     economic problem
+                 0.714     0.024      0.714     0.714     0.714      0.835    circuit simulation problem
+                 0         0          0         0         0          ?        subsequent computational fluid dynamics problem
+                 0         0          0         0         0          ?        subsequent theoretical/quantum chemistry problem
+                 0         0          0         0         0          0.484    electromagnetics problem
+                 0         0          0         0         0          ?        directed weighted graph
+                 0         0          0         0         0          ?        materials problem
+                 0         0          0         0         0          ?        eigenvalue/model reduction problem
+                 0         0          0         0         0          ?        model reduction problem
+                 0         0          0         0         0          ?        undirected random graph
+                 0         0          0         0         0          ?        thermal problem
+Weighted Avg.    0.685     0.072      0.64      0.685     0.659      0.851
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+ 16  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = subsequent circuit simulation problem
+  2 24  3  0  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = structural problem
+  0  4  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = optimization problem
+  0  2  0  2  0  1  0  1  0  1  2  0  0  0  0  0  0  0  0  0 |  d = computational fluid dynamics problem
+  0  1  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = undirected graph
+  0  3  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = 2D/3D problem
+  0  0  0  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = directed graph
+  0  0  0  1  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0 |  h = chemical process simulation problem
+  0  0  0  1  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0  0 |  i = power network problem
+  0  0  0  0  0  0  0  0  1  4  0  0  0  0  0  0  0  0  0  0 |  j = economic problem
+  0  0  0  0  1  0  1  0  0  0  5  0  0  0  0  0  0  0  0  0 |  k = circuit simulation problem
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  l = subsequent computational fluid dynamics problem
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  m = subsequent theoretical/quantum chemistry problem
+  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  n = electromagnetics problem
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  o = directed weighted graph
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  p = materials problem
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  q = eigenvalue/model reduction problem
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  r = model reduction problem
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  s = undirected random graph
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  t = thermal problem
+

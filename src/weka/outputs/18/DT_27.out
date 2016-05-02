@@ -1,0 +1,83 @@
+
+Options: -X 1 -S "weka.attributeSelection.BestFirst -D 1 -N 5" -R 
+
+Decision Table:
+
+Number of training instances: 1202
+Number of Rules : 1
+Non matches covered by Majority class.
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 66
+	Merit of best subset found:   91.181
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 15
+
+Rules:
+=========================
+is2D3DProblem  
+=========================
+0
+=========================
+
+
+
+Time taken to build model: 0.27 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1096               91.1814 %
+Incorrectly Classified Instances       106                8.8186 %
+Kappa statistic                          0     
+Mean absolute error                      0.1614
+Root mean squared error                  0.2836
+Relative absolute error                100.0377 %
+Root relative squared error            100.0001 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         1          0.912     1         0.954      0.5      0
+                 0         0          0         0         0          0.5      1
+Weighted Avg.    0.912     0.912      0.831     0.912     0.87       0.5  
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1096    0 |    a = 0
+  106    0 |    b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1091               90.7654 %
+Incorrectly Classified Instances       111                9.2346 %
+Kappa statistic                          0.0875
+Mean absolute error                      0.1576
+Root mean squared error                  0.2839
+Relative absolute error                 97.6354 %
+Root relative squared error            100.0993 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.989     0.934      0.916     0.989     0.951      0.639    0
+                 0.066     0.011      0.368     0.066     0.112      0.639    1
+Weighted Avg.    0.908     0.853      0.868     0.908     0.877      0.639
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1084   12 |    a = 0
+   99    7 |    b = 1
+

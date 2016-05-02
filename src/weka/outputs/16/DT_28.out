@@ -1,0 +1,104 @@
+
+Options: -X 1 -S "weka.attributeSelection.BestFirst -D 1 -N 5" -R 
+
+Decision Table:
+
+Number of training instances: 1202
+Number of Rules : 22
+Non matches covered by Majority class.
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 94
+	Merit of best subset found:   97.671
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 8,9,10,13,15
+
+Rules:
+=============================================================================================================================================
+maxEig                    isMaxEigNegative          isDiagonallyDominant      field                     isElectromagneticsProblem  
+=============================================================================================================================================
+'(-inf-2.689857]'         false                     false                     complex                   1
+'(2.689857-inf)'          false                     false                     complex                   1
+'(-inf-2.689857]'         true                      false                     complex                   0
+'(2.689857-inf)'          true                      false                     complex                   1
+'(-inf-2.689857]'         false                     false                     integer                   0
+'(2.689857-inf)'          false                     false                     integer                   0
+'(2.689857-inf)'          true                      false                     integer                   0
+'(2.689857-inf)'          false                     true                      integer                   0
+'(-inf-2.689857]'         false                     false                     pattern                   0
+?                         false                     false                     pattern                   0
+'(2.689857-inf)'          false                     false                     pattern                   0
+'(2.689857-inf)'          true                      false                     pattern                   0
+'(-inf-2.689857]'         true                      false                     pattern                   0
+?                         false                     false                     real                      0
+'(2.689857-inf)'          false                     false                     real                      0
+'(-inf-2.689857]'         false                     false                     real                      0
+'(-inf-2.689857]'         true                      false                     real                      0
+'(2.689857-inf)'          true                      false                     real                      0
+'(2.689857-inf)'          false                     true                      real                      0
+'(-inf-2.689857]'         false                     true                      real                      0
+'(2.689857-inf)'          true                      true                      real                      0
+'(-inf-2.689857]'         true                      true                      real                      1
+=============================================================================================================================================
+
+
+
+Time taken to build model: 0.34 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1174               97.6705 %
+Incorrectly Classified Instances        28                2.3295 %
+Kappa statistic                          0.4724
+Mean absolute error                      0.0566
+Root mean squared error                  0.1517
+Relative absolute error                 87.0002 %
+Root relative squared error             84.5891 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.999     0.675      0.977     0.999     0.988      0.841    0
+                 0.325     0.001      0.929     0.325     0.481      0.841    1
+Weighted Avg.    0.977     0.653      0.976     0.977     0.971      0.841
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1161    1 |    a = 0
+   27   13 |    b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1168               97.1714 %
+Incorrectly Classified Instances        34                2.8286 %
+Kappa statistic                          0.2837
+Mean absolute error                      0.0587
+Root mean squared error                  0.1636
+Relative absolute error                 90.0425 %
+Root relative squared error             91.196  %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.999     0.825      0.972     0.999     0.986      0.756    0
+                 0.175     0.001      0.875     0.175     0.292      0.756    1
+Weighted Avg.    0.972     0.798      0.969     0.972     0.962      0.756
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1161    1 |    a = 0
+   33    7 |    b = 1
+

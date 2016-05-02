@@ -1,0 +1,58 @@
+
+Time taken to build model: 0.16 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1191               99.0849 %
+Incorrectly Classified Instances        11                0.9151 %
+Kappa statistic                          0.9171
+Mean absolute error                      0.0092
+Root mean squared error                  0.0957
+Relative absolute error                  8.5211 %
+Root relative squared error             41.4081 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.993     0.044      0.997     0.993     0.995      0.974    0
+                 0.956     0.007      0.89      0.956     0.922      0.974    1
+Weighted Avg.    0.991     0.042      0.991     0.991     0.991      0.974
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1126    8 |    a = 0
+    3   65 |    b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1167               97.0882 %
+Incorrectly Classified Instances        35                2.9118 %
+Kappa statistic                          0.6957
+Mean absolute error                      0.0291
+Root mean squared error                  0.1706
+Relative absolute error                 27.0938 %
+Root relative squared error             73.8605 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.991     0.368      0.978     0.991     0.985      0.812    0
+                 0.632     0.009      0.811     0.632     0.711      0.812    1
+Weighted Avg.    0.971     0.347      0.969     0.971     0.969      0.812
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1124   10 |    a = 0
+   25   43 |    b = 1
+

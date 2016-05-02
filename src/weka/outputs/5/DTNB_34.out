@@ -1,0 +1,151 @@
+
+Options: -X 1 -R 
+
+Decision Table:
+
+Number of training instances: 92
+Number of Rules : 4
+Non matches covered by Majority class.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 9,14,15
+
+Rules:
+====================================================================================================================
+isMaxEigNegative                   symmetric                          isChemicalProcessSimulationProblem  
+====================================================================================================================
+true                               general                            0
+false                              general                            0
+true                               symmetric                          0
+false                              symmetric                          0
+====================================================================================================================
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0      1
+                             (0.97) (0.03)
+===========================================
+numberOfRows
+  'All'                         91.0    3.0
+  [total]                       91.0    3.0
+
+numberOfConnectedComponent
+  'All'                         91.0    3.0
+  [total]                       91.0    3.0
+
+numberOfBlockFromDmPerm
+  'All'                         91.0    3.0
+  [total]                       91.0    3.0
+
+normalizedAvgNNZPerRow
+  'All'                         91.0    3.0
+  [total]                       91.0    3.0
+
+avgNNZPerRow
+  'All'                         91.0    3.0
+  [total]                       91.0    3.0
+
+stdNNZPerRow
+  'All'                         91.0    3.0
+  [total]                       91.0    3.0
+
+varNNZPerRow
+  'All'                         91.0    3.0
+  [total]                       91.0    3.0
+
+maxEig
+  'All'                         88.0    3.0
+  [total]                       88.0    3.0
+
+isMaxEigNegative
+  true                           9.0    3.0
+  false                         83.0    1.0
+  [total]                       92.0    4.0
+
+isDiagonallyDominant
+  true                           5.0    1.0
+  false                         87.0    3.0
+  [total]                       92.0    4.0
+
+isBlockDiagonal
+  true                          64.0    1.0
+  false                         28.0    3.0
+  [total]                       92.0    4.0
+
+isDiagonal
+  true                           5.0    1.0
+  false                         87.0    3.0
+  [total]                       92.0    4.0
+
+field
+  real                          69.0    3.0
+  pattern                       23.0    1.0
+  integer                        1.0    1.0
+  complex                        1.0    1.0
+  [total]                       94.0    6.0
+
+symmetric
+  symmetric                     51.0    1.0
+  general                       41.0    3.0
+  skew-symmetric                 1.0    1.0
+  [total]                       93.0    5.0
+
+
+
+Time taken to build model: 0.24 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          91               98.913  %
+Incorrectly Classified Instances         1                1.087  %
+Kappa statistic                          0.7946
+Mean absolute error                      0.0455
+Root mean squared error                  0.0993
+Relative absolute error                 87.0109 %
+Root relative squared error             67.8991 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.989     0          1         0.989     0.994      0.994    0
+                 1         0.011      0.667     1         0.8        0.994    1
+Weighted Avg.    0.989     0          0.993     0.989     0.99       0.994
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 89  1 |  a = 0
+  0  2 |  b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          89               96.7391 %
+Incorrectly Classified Instances         3                3.2609 %
+Kappa statistic                         -0.0147
+Mean absolute error                      0.062 
+Root mean squared error                  0.1793
+Relative absolute error                115.9632 %
+Root relative squared error            121.4299 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.989     1          0.978     0.989     0.983      0.711    0
+                 0         0.011      0         0         0          0.711    1
+Weighted Avg.    0.967     0.979      0.957     0.967     0.962      0.711
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 89  1 |  a = 0
+  2  0 |  b = 1
+

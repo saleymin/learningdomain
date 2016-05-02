@@ -1,0 +1,78 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+field = real: 0 (70.0)
+field = pattern
+|   numberOfBlockFromDmPerm <= 9: 0 (10.0)
+|   numberOfBlockFromDmPerm > 9
+|   |   symmetric = symmetric: 1 (8.0/2.0)
+|   |   symmetric = general: 0 (4.0)
+|   |   symmetric = skew-symmetric: 0 (0.0)
+field = integer: 0 (0.0)
+field = complex: 0 (0.0)
+
+Number of Leaves  : 	7
+
+Size of the tree : 	10
+
+
+Time taken to build model: 0.03 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          90               97.8261 %
+Incorrectly Classified Instances         2                2.1739 %
+Kappa statistic                          0.8456
+Mean absolute error                      0.0326
+Root mean squared error                  0.1277
+Relative absolute error                 25.089  %
+Root relative squared error             51.6785 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.977     0          1         0.977     0.988      0.988    0
+                 1         0.023      0.75      1         0.857      0.988    1
+Weighted Avg.    0.978     0.002      0.984     0.978     0.98       0.988
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 84  2 |  a = 0
+  0  6 |  b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          88               95.6522 %
+Incorrectly Classified Instances         4                4.3478 %
+Kappa statistic                          0.6434
+Mean absolute error                      0.0399
+Root mean squared error                  0.1855
+Relative absolute error                 30.3431 %
+Root relative squared error             74.6986 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.977     0.333      0.977     0.977     0.977      0.905    0
+                 0.667     0.023      0.667     0.667     0.667      0.905    1
+Weighted Avg.    0.957     0.313      0.957     0.957     0.957      0.905
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 84  2 |  a = 0
+  2  4 |  b = 1
+

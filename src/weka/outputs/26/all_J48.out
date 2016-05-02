@@ -1,0 +1,177 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+numberOfBlockFromDmPerm <= 7
+|   isMaxEigNegative = true
+|   |   stdNNZPerRow <= 21.084598
+|   |   |   field = real
+|   |   |   |   numberOfRows <= 27792
+|   |   |   |   |   maxEig <= 0.08016: symmetric (3.0)
+|   |   |   |   |   maxEig > 0.08016: general (53.0/3.0)
+|   |   |   |   numberOfRows > 27792: symmetric (8.0/2.0)
+|   |   |   field = pattern: symmetric (9.0/1.0)
+|   |   |   field = integer: symmetric (1.0)
+|   |   |   field = complex: general (5.0/1.0)
+|   |   stdNNZPerRow > 21.084598: symmetric (23.0/1.0)
+|   isMaxEigNegative = false
+|   |   maxEig <= 2.783445
+|   |   |   maxEig <= 0.040814: symmetric (13.08/1.08)
+|   |   |   maxEig > 0.040814
+|   |   |   |   isDiagonallyDominant = true
+|   |   |   |   |   numberOfRows <= 400: symmetric (2.0)
+|   |   |   |   |   numberOfRows > 400: general (2.0)
+|   |   |   |   isDiagonallyDominant = false: general (28.2/4.0)
+|   |   maxEig > 2.783445
+|   |   |   field = real
+|   |   |   |   isDiagonallyDominant = true: symmetric (25.0)
+|   |   |   |   isDiagonallyDominant = false
+|   |   |   |   |   maxEig <= 736.367037
+|   |   |   |   |   |   numberOfRows <= 3565
+|   |   |   |   |   |   |   maxEig <= 5.312992: symmetric (2.02/0.02)
+|   |   |   |   |   |   |   maxEig > 5.312992: general (22.23/1.0)
+|   |   |   |   |   |   numberOfRows > 3565
+|   |   |   |   |   |   |   isBlockDiagonal = true
+|   |   |   |   |   |   |   |   numberOfBlockFromDmPerm <= 2: general (2.0)
+|   |   |   |   |   |   |   |   numberOfBlockFromDmPerm > 2: symmetric (3.0/1.0)
+|   |   |   |   |   |   |   isBlockDiagonal = false: symmetric (30.49/9.49)
+|   |   |   |   |   maxEig > 736.367037
+|   |   |   |   |   |   avgNNZPerRow <= 53.484695
+|   |   |   |   |   |   |   isBlockDiagonal = true
+|   |   |   |   |   |   |   |   numberOfConnectedComponent <= 2
+|   |   |   |   |   |   |   |   |   avgNNZPerRow <= 26.103448: symmetric (17.66/1.66)
+|   |   |   |   |   |   |   |   |   avgNNZPerRow > 26.103448: general (5.0/1.0)
+|   |   |   |   |   |   |   |   numberOfConnectedComponent > 2: symmetric (14.0)
+|   |   |   |   |   |   |   isBlockDiagonal = false
+|   |   |   |   |   |   |   |   avgNNZPerRow <= 5.767647: general (2.66)
+|   |   |   |   |   |   |   |   avgNNZPerRow > 5.767647: symmetric (92.66/3.66)
+|   |   |   |   |   |   avgNNZPerRow > 53.484695
+|   |   |   |   |   |   |   numberOfRows <= 69518
+|   |   |   |   |   |   |   |   maxEig <= 41445034545.303464: general (17.0/5.0)
+|   |   |   |   |   |   |   |   maxEig > 41445034545.303464: symmetric (5.0)
+|   |   |   |   |   |   |   numberOfRows > 69518: symmetric (6.0)
+|   |   |   field = pattern
+|   |   |   |   numberOfRows <= 62
+|   |   |   |   |   numberOfBlockFromDmPerm <= 1
+|   |   |   |   |   |   maxEig <= 4.016683: symmetric (5.0)
+|   |   |   |   |   |   maxEig > 4.016683
+|   |   |   |   |   |   |   numberOfRows <= 54: general (2.0)
+|   |   |   |   |   |   |   numberOfRows > 54: symmetric (4.0/1.0)
+|   |   |   |   |   numberOfBlockFromDmPerm > 1: general (2.0)
+|   |   |   |   numberOfRows > 62: symmetric (176.0)
+|   |   |   field = integer: symmetric (12.0/1.0)
+|   |   |   field = complex: symmetric (4.0/1.0)
+numberOfBlockFromDmPerm > 7
+|   stdNNZPerRow <= 1.118349: symmetric (42.0/3.0)
+|   stdNNZPerRow > 1.118349
+|   |   field = real
+|   |   |   isDiagonal = true: general (3.0/1.0)
+|   |   |   isDiagonal = false
+|   |   |   |   maxEig <= 360415392.810234
+|   |   |   |   |   normalizedAvgNNZPerRow <= 0.001194
+|   |   |   |   |   |   stdNNZPerRow <= 2.328847
+|   |   |   |   |   |   |   stdNNZPerRow <= 1.273353: general (2.97)
+|   |   |   |   |   |   |   stdNNZPerRow > 1.273353: symmetric (9.0)
+|   |   |   |   |   |   stdNNZPerRow > 2.328847
+|   |   |   |   |   |   |   isBlockDiagonal = true
+|   |   |   |   |   |   |   |   numberOfBlockFromDmPerm <= 115
+|   |   |   |   |   |   |   |   |   avgNNZPerRow <= 6.668963: general (5.95)
+|   |   |   |   |   |   |   |   |   avgNNZPerRow > 6.668963: symmetric (11.0/2.0)
+|   |   |   |   |   |   |   |   numberOfBlockFromDmPerm > 115: general (104.92/13.0)
+|   |   |   |   |   |   |   isBlockDiagonal = false: general (9.92)
+|   |   |   |   |   normalizedAvgNNZPerRow > 0.001194
+|   |   |   |   |   |   numberOfConnectedComponent <= 290
+|   |   |   |   |   |   |   numberOfBlockFromDmPerm <= 26
+|   |   |   |   |   |   |   |   stdNNZPerRow <= 5.232139
+|   |   |   |   |   |   |   |   |   avgNNZPerRow <= 4.855142: general (5.0)
+|   |   |   |   |   |   |   |   |   avgNNZPerRow > 4.855142: symmetric (4.0)
+|   |   |   |   |   |   |   |   stdNNZPerRow > 5.232139: general (10.0)
+|   |   |   |   |   |   |   numberOfBlockFromDmPerm > 26: general (264.89/1.0)
+|   |   |   |   |   |   numberOfConnectedComponent > 290
+|   |   |   |   |   |   |   maxEig <= 428.994382: symmetric (9.0/2.0)
+|   |   |   |   |   |   |   maxEig > 428.994382: general (14.0)
+|   |   |   |   maxEig > 360415392.810234
+|   |   |   |   |   isMaxEigNegative = true: general (4.0)
+|   |   |   |   |   isMaxEigNegative = false: symmetric (8.35/0.35)
+|   |   field = pattern
+|   |   |   isBlockDiagonal = true
+|   |   |   |   numberOfConnectedComponent <= 1601
+|   |   |   |   |   numberOfRows <= 324: general (9.0)
+|   |   |   |   |   numberOfRows > 324: symmetric (26.0/4.0)
+|   |   |   |   numberOfConnectedComponent > 1601: general (32.0/2.0)
+|   |   |   isBlockDiagonal = false: symmetric (10.0)
+|   |   field = integer: symmetric (44.0)
+|   |   field = complex: general (2.0/1.0)
+
+Number of Leaves  : 	54
+
+Size of the tree : 	101
+
+
+Time taken to build model: 0.17 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1160               94.4625 %
+Incorrectly Classified Instances        68                5.5375 %
+Kappa statistic                          0.8895
+Mean absolute error                      0.046 
+Root mean squared error                  0.1508
+Relative absolute error                 18.2774 %
+Root relative squared error             42.5629 %
+Total Number of Instances             1228     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.95      0.057      0.943     0.95      0.947      0.983    symmetric
+                 0.944     0.053      0.946     0.944     0.945      0.983    general
+                 0         0          0         0         0          0.996    skew-symmetric
+                 0         0          0         0         0          1        hermitian
+Weighted Avg.    0.945     0.055      0.942     0.945     0.943      0.983
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   <-- classified as
+ 584  31   0   0 |   a = symmetric
+  34 576   0   0 |   b = general
+   1   1   0   0 |   c = skew-symmetric
+   0   1   0   0 |   d = hermitian
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1080               87.9479 %
+Incorrectly Classified Instances       148               12.0521 %
+Kappa statistic                          0.7597
+Mean absolute error                      0.0741
+Root mean squared error                  0.2302
+Relative absolute error                 29.4537 %
+Root relative squared error             64.964  %
+Total Number of Instances             1228     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.883     0.119      0.881     0.883     0.882      0.912    symmetric
+                 0.88      0.12       0.879     0.88      0.88       0.907    general
+                 0         0          0         0         0          0.471    skew-symmetric
+                 0         0.001      0         0         0          0.5      hermitian
+Weighted Avg.    0.879     0.119      0.878     0.879     0.879      0.909
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   <-- classified as
+ 543  72   0   0 |   a = symmetric
+  72 537   0   1 |   b = general
+   1   1   0   0 |   c = skew-symmetric
+   0   1   0   0 |   d = hermitian
+

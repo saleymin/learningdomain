@@ -1,0 +1,69 @@
+
+Options: -I 0 -M 500 -H 50 -W 0.0 
+
+SimpleLogistic:
+
+Class 0 :
+0    + 
+
+Class 1 :
+0    + 
+
+
+Time taken to build model: 0.87 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1138               94.6755 %
+Incorrectly Classified Instances        64                5.3245 %
+Kappa statistic                          0     
+Mean absolute error                      0.5   
+Root mean squared error                  0.5   
+Relative absolute error                492.6967 %
+Root relative squared error            222.6953 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         1          0.947     1         0.973      0.5      0
+                 0         0          0         0         0          0.5      1
+Weighted Avg.    0.947     0.947      0.896     0.947     0.921      0.5  
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1138    0 |    a = 0
+   64    0 |    b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1138               94.6755 %
+Incorrectly Classified Instances        64                5.3245 %
+Kappa statistic                          0     
+Mean absolute error                      0.5   
+Root mean squared error                  0.5   
+Relative absolute error                492.3271 %
+Root relative squared error            222.6868 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         1          0.947     1         0.973      0.5      0
+                 0         0          0         0         0          0.5      1
+Weighted Avg.    0.947     0.947      0.896     0.947     0.921      0.5  
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1138    0 |    a = 0
+   64    0 |    b = 1
+

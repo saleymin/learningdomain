@@ -1,0 +1,112 @@
+@relation 'matrixdomains-weka.filters.unsupervised.attribute.Remove-Rfirst-3,5,6,20-37,39-40'
+
+@attribute numberOfRows numeric
+@attribute numberOfConnectedComponent numeric
+@attribute numberOfBlockFromDmPerm numeric
+@attribute normalizedAvgNNZPerRow numeric
+@attribute avgNNZPerRow numeric
+@attribute stdNNZPerRow numeric
+@attribute varNNZPerRow numeric
+@attribute maxEig numeric
+@attribute isMaxEigNegative {true,false}
+@attribute isDiagonallyDominant {true,false}
+@attribute isBlockDiagonal {true,false}
+@attribute isDiagonal {true,false}
+@attribute field {real,pattern,integer,complex}
+@attribute symmetric {symmetric,general,skew-symmetric}
+@attribute isSubsequentTheoreticalQuantumChemistryProblem {0,1}
+
+@data
+
+66,66,66,0.015152,1,0,0,0.345657,false,true,true,true,real,symmetric,0
+715,1,1,0.013037,9.321678,5.887842,34.666686,10.324834,false,false,false,false,pattern,symmetric,0
+782,2,2,0.009782,7.649616,2.557907,6.542887,0.000034,true,true,true,false,real,symmetric,0
+30237,29228,14796,0.000023,0.681913,1.034346,1.069872,0.021369,false,false,true,false,real,symmetric,0
+3079,3,3,0.005601,17.245534,7.385346,54.543332,262.410554,false,false,true,false,real,general,0
+20614,2754,2774,0.000263,5.428495,6.29628,39.643143,256,false,false,true,false,real,general,0
+54870,1,1,0.000889,48.793949,8.530714,72.773085,3425352839.916361,false,false,false,false,real,symmetric,0
+4350,1,1,0.012567,54.666207,21.838205,476.907182,60.151067,false,false,false,false,pattern,symmetric,0
+33960,1,1,0.001373,46.632509,14.452765,208.882408,56.165507,false,false,false,false,pattern,symmetric,0
+6136,92,92,0.001416,8.691167,67.922147,4613.418054,15.411072,true,false,true,false,real,general,0
+1813,6,469,0.003421,6.202427,30.785618,947.754255,1.340904,false,false,true,false,real,general,0
+1813,6,469,0.003421,6.202978,30.785641,947.755686,1.174299,false,false,true,false,real,general,0
+1220,34,188,0.003959,4.829508,4.014385,16.115289,2.871652,false,false,true,false,real,general,0
+430,9,31,0.00835,3.590698,1.449992,2.102477,2001004.291115,false,false,true,false,real,general,0
+14822,1,1,0.003258,48.293348,5.116737,26.180995,26.490123,false,false,false,false,real,symmetric,0
+182730,1,1,0.000049,8.984141,2.749469,7.559578,25610.837711,false,false,false,false,real,symmetric,0
+121728,1,1,0.000255,31.02849,14.373165,206.587866,4.2426246051984737E18,false,false,false,false,real,symmetric,0
+110355,1410,6052,0.000046,5.03322,19.262322,371.037064,844728.142048,false,false,true,false,real,general,0
+5488,754,50,0.00047,2.581997,5.949228,35.393312,9.564028,false,false,true,false,pattern,symmetric,0
+9769,8,8,0.001065,10.403828,17.988928,323.601546,36266.593897,false,false,true,false,real,symmetric,0
+5489,1,1,0.008727,47.903625,7.708189,59.416184,9441.384775,false,false,false,false,real,symmetric,0
+8114,5491,385,0.000395,3.20594,4.783529,22.882149,4.53606,false,false,true,false,pattern,general,0
+112,112,74,0.00574,0.642857,0.481311,0.23166,84.62,false,false,true,true,real,symmetric,0
+73,1,1,0.070745,5.164384,2.179537,4.750381,5.087054,false,false,false,false,pattern,symmetric,0
+3345,616,616,0.002033,6.800897,3.964382,15.716327,11.936557,false,false,true,false,pattern,symmetric,0
+200,1,1,0.0199,3.98,0.140351,0.019698,1235.50692,true,false,false,false,real,general,0
+23052,10881,3,0.000603,13.907947,14.035103,196.984108,0.941547,false,false,true,false,real,symmetric,0
+3565,1652,1652,0.005318,18.959607,20.326296,413.158301,179.538657,false,false,true,false,real,general,0
+27534,3594,3614,0.000199,5.486417,6.385577,40.775594,866281.117609,false,false,true,false,real,general,0
+76480,321,25761,0.000056,4.311742,1.25316,1.570411,59.157698,false,false,true,false,real,general,0
+80676,1,1,0.000662,53.410977,6.569292,43.155595,60.263828,false,false,false,false,pattern,symmetric,0
+1813,6,469,0.003421,6.202978,30.785641,947.755686,1.431568,false,false,true,false,real,general,0
+1813,6,469,0.003421,6.202978,30.785641,947.755686,1.174299,false,false,true,false,real,general,0
+1220,34,188,0.003959,4.829508,4.014385,16.115289,2.871652,false,false,true,false,real,general,0
+430,9,31,0.00835,3.590698,1.449992,2.102477,2001004.291115,false,false,true,false,real,general,0
+6833,66,507,0.000926,6.329577,27.312271,745.960157,42.126844,false,false,true,false,pattern,general,0
+389874,920,920,0.000014,5.380113,1.969994,3.880876,3.059039,false,false,true,false,real,symmetric,0
+140874,3,3,0.00018,25.328847,10.651348,113.451207,2.2025137622283863E13,false,false,true,false,real,symmetric,0
+100,1,48,0.0708,7.08,7.07775,50.094545,40003.125735,false,false,false,false,real,general,0
+358172,1178,3497,0.000015,5.435877,180.112627,32440.558578,844727.368671,false,false,true,false,real,general,0
+485,44,173,0.011742,5.694845,6.827999,46.621564,7.180671,false,false,true,false,pattern,symmetric,0
+10471,1,1,0.001006,10.532423,41.340484,1709.035601,11085.34884,false,false,false,false,real,symmetric,0
+5489,1,1,0.007224,39.652214,5.218322,27.230881,1308589.526735,false,false,false,false,real,symmetric,0
+38120,378,378,0.011128,424.217445,484.243851,234492.106839,16642.391362,true,false,true,false,real,general,0
+26518,20167,643,0.000093,2.46508,4.365098,19.054085,?,false,false,true,false,pattern,general,0
+132,132,68,0.003788,0.5,0.501905,0.251908,0.282617,false,false,true,true,real,symmetric,0
+838,1,1,0.014254,11.945107,6.227034,38.775956,14.951518,false,false,false,false,pattern,symmetric,0
+240,1,1,0.039028,9.366667,2.64475,6.9947,21711984.315567,true,false,false,false,real,general,0
+2000,1,1,0.001999,3.998,0.044688,0.001997,121823.930174,true,false,false,false,real,general,0
+25503,25068,13572,0.000024,0.608752,0.700228,0.490319,0.000234,false,false,true,false,real,symmetric,0
+1601,1,1,0.012425,19.893192,7.878719,62.07421,2.163384,false,false,false,false,real,symmetric,0
+27534,3594,3614,0.000199,5.486417,6.385577,40.775594,511.999983,false,false,true,false,real,general,0
+4720,81,1641,0.0009,4.246186,1.269888,1.612615,146.242792,false,false,true,false,real,general,0
+87804,2,2,0.000677,59.426814,25.032296,626.615864,79.327561,false,false,true,false,pattern,symmetric,0
+1813,6,469,0.003421,6.202978,30.785641,947.755686,1.338514,false,false,true,false,real,general,0
+1813,6,469,0.003421,6.202978,30.785641,947.755686,1.174299,false,false,true,false,real,general,0
+1220,34,188,0.003959,4.829508,4.014385,16.115289,2.871652,false,false,true,false,real,general,0
+430,9,31,0.00835,3.590698,1.449992,2.102477,2001004.291115,false,false,true,false,real,general,0
+1960,10,58,0.002912,5.707653,17.069379,291.363698,15.952315,false,false,true,false,pattern,symmetric,0
+51537,307,307,0.000381,19.612647,5.32319,28.336353,6.365541,false,false,true,false,real,symmetric,0
+179860,36,36,0.000142,25.567686,10.883753,118.456085,7406959604693.686272,false,false,true,false,real,symmetric,0
+791,7,36,0.017077,13.508217,10.558319,111.478097,65258.399977,false,false,true,false,real,general,0
+87190,1178,3495,0.00008,6.955947,101.977096,10399.328055,769162.496832,false,false,true,false,real,general,0
+5822,877,50,0.000435,2.533494,5.94834,35.382747,9.668804,false,false,true,false,pattern,symmetric,0
+11125,9,9,0.000999,11.115416,72.603833,5271.316595,28067.48803,false,false,true,false,real,symmetric,0
+5489,1,1,0.007225,39.657679,5.213338,27.178896,130296.451389,false,false,false,false,real,symmetric,0
+7245,3,3,0.000879,6.368806,4.146352,17.192235,3256389.165534,true,false,true,false,real,symmetric,0
+29214,2,2,0.005156,150.616896,676.285644,457362.272766,5441.017573,true,false,true,false,real,symmetric,0
+1133,1,413,0.008493,9.622242,9.343765,87.305936,12.339635,false,false,false,false,pattern,symmetric,0
+153,153,153,0.006536,1,0,0,1.682282,false,true,true,true,real,symmetric,0
+96,1,1,0.083333,8,1.421637,2.021053,7.740939,false,false,false,false,pattern,symmetric,0
+600,151,151,0.015722,9.433333,4.529505,20.516416,4685603974.5652,true,false,true,false,real,general,0
+8032,6656,3825,0.000163,1.305403,1.948466,3.796519,0.498436,false,false,true,false,real,symmetric,0
+7740,1,1,0.007615,58.939018,26.158426,684.26324,7.249827,false,false,false,false,real,general,0
+34454,4430,4450,0.00016,5.521101,6.438143,41.44969,980453.125734,false,false,true,false,real,general,0
+94653,1,1,0.000839,79.366919,148.391822,22020.132917,200.680735,false,false,false,false,pattern,symmetric,0
+1813,6,469,0.003421,6.202978,30.785641,947.755686,1.282926,false,false,true,false,real,general,0
+1813,6,469,0.003421,6.202978,30.785641,947.755686,1.174299,false,false,true,false,real,general,0
+1220,34,188,0.003959,4.829508,4.014385,16.115289,2.871652,false,false,true,false,real,general,0
+430,9,31,0.00835,3.590698,1.449992,2.102477,2001004.291115,false,false,true,false,real,general,0
+7602,1,103,0.000565,4.295317,1.120899,1.256415,?,false,false,false,false,real,general,0
+24993,1,2,0.000112,2.799664,0.979951,0.960304,0,false,false,false,false,real,symmetric,0
+114919,49,49,0.00025,28.746796,12.884389,166.007486,3852197585653.595648,false,false,true,false,real,symmetric,0
+51032,1568,4666,0.000095,4.850447,22.565602,509.206416,826006.365418,false,false,true,false,real,general,0
+80800,1,1,0.000083,6.710198,0.475933,0.226513,0,false,true,false,false,real,symmetric,0
+492,43,184,0.011708,5.760163,6.875041,47.26619,7.22335,false,false,true,false,pattern,symmetric,0
+10728,1,1,0.000739,7.923192,12.819544,164.340702,17416.113966,false,false,false,false,real,symmetric,0
+5489,1,1,0.007225,39.655493,5.232139,27.37528,13170.494691,false,false,false,false,real,symmetric,0
+10798,2,2,0.005219,56.356733,243.794677,59435.844759,169525.735456,true,false,true,false,real,symmetric,0
+36682,28193,533,0.000066,2.407938,4.334447,18.787427,?,false,false,true,false,pattern,general,0
+4720,1,1,0.001232,5.814407,0.6708,0.449973,5.975204,false,false,false,false,pattern,symmetric,0
+192244,308,49109,0.000033,6.336385,14.140008,199.93983,48.478974,false,false,true,false,pattern,symmetric,0

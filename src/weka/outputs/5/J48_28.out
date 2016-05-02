@@ -1,0 +1,69 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+: 0 (92.0/1.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.02 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          91               98.913  %
+Incorrectly Classified Instances         1                1.087  %
+Kappa statistic                          0     
+Mean absolute error                      0.0215
+Root mean squared error                  0.1037
+Relative absolute error                 67.8673 %
+Root relative squared error             99.5001 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         1          0.989     1         0.995      0.5      0
+                 0         0          0         0         0          0.5      1
+Weighted Avg.    0.989     0.989      0.978     0.989     0.984      0.5  
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 91  0 |  a = 0
+  1  0 |  b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          91               98.913  %
+Incorrectly Classified Instances         1                1.087  %
+Kappa statistic                          0     
+Mean absolute error                      0.0216
+Root mean squared error                  0.1049
+Relative absolute error                 65.7127 %
+Root relative squared error             99.4512 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         1          0.989     1         0.995      0.049    0
+                 0         0          0         0         0          0.049    1
+Weighted Avg.    0.989     0.989      0.978     0.989     0.984      0.049
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 91  0 |  a = 0
+  1  0 |  b = 1
+

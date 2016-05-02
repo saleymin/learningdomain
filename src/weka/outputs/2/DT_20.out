@@ -1,0 +1,95 @@
+
+Options: -X 1 -S "weka.attributeSelection.BestFirst -D 1 -N 5" -R 
+
+Decision Table:
+
+Number of training instances: 92
+Number of Rules : 13
+Non matches covered by Majority class.
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 84
+	Merit of best subset found:  100    
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 2,8,15
+
+Rules:
+==========================================================================================================================
+numberOfConnectedComponent           maxEig                               isSubsequentCircuitSimulationProblem  
+==========================================================================================================================
+'(35-inf)'                           '(2628696.728325-inf)'               0
+'(-inf-4.5]'                         '(2628696.728325-inf)'               0
+'(4.5-35]'                           '(1654796.908925-2628696.728325]'    1
+'(4.5-35]'                           '(2.965345-1654796.908925]'          0
+'(35-inf)'                           '(2.965345-1654796.908925]'          0
+'(-inf-4.5]'                         '(2.965345-1654796.908925]'          0
+'(-inf-4.5]'                         ?                                    0
+'(35-inf)'                           ?                                    0
+'(35-inf)'                           '(1.057923-2.965345]'                0
+'(-inf-4.5]'                         '(1.057923-2.965345]'                0
+'(4.5-35]'                           '(1.057923-2.965345]'                1
+'(-inf-4.5]'                         '(-inf-1.057923]'                    0
+'(35-inf)'                           '(-inf-1.057923]'                    0
+==========================================================================================================================
+
+
+
+Time taken to build model: 0.08 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          92              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.1066
+Root mean squared error                  0.1501
+Relative absolute error                 36.5095 %
+Root relative squared error             39.6023 %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        0
+                 1         0          1         1         1          1        1
+Weighted Avg.    1         0          1         1         1          1    
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 76  0 |  a = 0
+  0 16 |  b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          90               97.8261 %
+Incorrectly Classified Instances         2                2.1739 %
+Kappa statistic                          0.9279
+Mean absolute error                      0.1452
+Root mean squared error                  0.2185
+Relative absolute error                 49.5844 %
+Root relative squared error             57.53   %
+Total Number of Instances               92     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.974     0          1         0.974     0.987      0.992    0
+                 1         0.026      0.889     1         0.941      0.992    1
+Weighted Avg.    0.978     0.005      0.981     0.978     0.979      0.992
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 74  2 |  a = 0
+  0 16 |  b = 1
+

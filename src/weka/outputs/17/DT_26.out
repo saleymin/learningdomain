@@ -1,0 +1,89 @@
+
+Options: -X 1 -S "weka.attributeSelection.BestFirst -D 1 -N 5" -R 
+
+Decision Table:
+
+Number of training instances: 1202
+Number of Rules : 7
+Non matches covered by Majority class.
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 82
+	Merit of best subset found:   95.923
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 3,13,15
+
+Rules:
+=============================================================================
+numberOfBlockFromDmPerm field                   isUndirectedGraph  
+=============================================================================
+'(-inf-43080.5]'        complex                 0
+'(43080.5-inf)'         integer                 0
+'(-inf-43080.5]'        integer                 0
+'(43080.5-inf)'         pattern                 1
+'(-inf-43080.5]'        pattern                 0
+'(43080.5-inf)'         real                    0
+'(-inf-43080.5]'        real                    0
+=============================================================================
+
+
+
+Time taken to build model: 0.29 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1153               95.9235 %
+Incorrectly Classified Instances        49                4.0765 %
+Kappa statistic                          0.2141
+Mean absolute error                      0.072 
+Root mean squared error                  0.1851
+Relative absolute error                 80.4126 %
+Root relative squared error             87.8235 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0.875      0.959     1         0.979      0.908    0
+                 0.125     0          1         0.125     0.222      0.908    1
+Weighted Avg.    0.959     0.834      0.961     0.959     0.944      0.908
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1146    0 |    a = 0
+   49    7 |    b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1151               95.7571 %
+Incorrectly Classified Instances        51                4.2429 %
+Kappa statistic                          0.182 
+Mean absolute error                      0.0737
+Root mean squared error                  0.1889
+Relative absolute error                 82.2962 %
+Root relative squared error             89.6419 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.999     0.893      0.958     0.999     0.978      0.9      0
+                 0.107     0.001      0.857     0.107     0.19       0.9      1
+Weighted Avg.    0.958     0.851      0.953     0.958     0.942      0.9  
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1145    1 |    a = 0
+   50    6 |    b = 1
+

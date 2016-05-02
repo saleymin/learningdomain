@@ -1,0 +1,309 @@
+
+Options: -X 1 -R 
+
+Decision Table:
+
+Number of training instances: 1202
+Number of Rules : 154
+Non matches covered by Majority class.
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 2,3,4,5,6,9,11,13,15
+
+Rules:
+=======================================================================================================================================================================================================================================================================
+numberOfConnectedComponent  numberOfBlockFromDmPerm     normalizedAvgNNZPerRow      avgNNZPerRow                stdNNZPerRow                isMaxEigNegative            isBlockDiagonal             field                       isCircuitSimulationProblems  
+=======================================================================================================================================================================================================================================================================
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           false                       false                       complex                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          false                       false                       complex                     0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          false                       false                       complex                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           false                       false                       integer                     0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           false                       false                       integer                     0
+'(108-inf)'                 '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          false                       true                        complex                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          true                        false                       complex                     0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          true                        false                       complex                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          false                       false                       integer                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       false                       integer                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          true                        true                        complex                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           false                       false                       pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       false                       integer                     0
+'(108-inf)'                 '(-inf-6.5]'                '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          false                       true                        complex                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          true                        false                       integer                     0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       false                       integer                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          false                       false                       integer                     0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           false                       false                       pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          false                       false                       pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(16.792181-inf)'           false                       false                       pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          false                       false                       pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(-inf-3.720412]'           '(-inf-16.792181]'          false                       false                       integer                     0
+'(108-inf)'                 '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           false                       true                        pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           true                        false                       pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          false                       false                       pattern                     0
+'(108-inf)'                 '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       false                       pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       true                        integer                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           false                       false                       real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        false                       integer                     0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          false                       false                       pattern                     0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       true                        integer                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           false                       false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       false                       pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          false                       true                        integer                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           false                       false                       real                        1
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       false                       pattern                     1
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(16.792181-inf)'           false                       true                        pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          false                       false                       pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       false                       pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(16.792181-inf)'           false                       false                       real                        1
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           false                       false                       real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(-inf-3.720412]'           '(-inf-16.792181]'          false                       true                        integer                     0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(16.792181-inf)'           false                       true                        pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          false                       false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          false                       false                       pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(16.792181-inf)'           false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(16.792181-inf)'           false                       false                       real                        1
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        false                       pattern                     0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(-inf-3.720412]'           '(-inf-16.792181]'          false                       false                       pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           true                        false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           true                        true                        pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          false                       false                       real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        true                        integer                     0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(3.720412-8.574083]'       '(16.792181-inf)'           false                       false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          false                       true                        pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        false                       pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(-inf-3.720412]'           '(-inf-16.792181]'          false                       false                       pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           true                        false                       real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       true                        pattern                     0
+'(108-inf)'                 '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           false                       true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           false                       true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(-inf-3.720412]'           '(16.792181-inf)'           false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        false                       pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       true                        pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           false                       true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          false                       false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        false                       pattern                     0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           false                       true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           true                        false                       real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           false                       true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          true                        false                       pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          false                       true                        pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           false                       true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          false                       true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       false                       real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(16.792181-inf)'           false                       true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          false                       false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          false                       true                        pattern                     0
+'(108-inf)'                 '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          false                       true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       false                       real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          false                       true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          true                        false                       real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(-inf-3.720412]'           '(-inf-16.792181]'          false                       true                        pattern                     0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(3.720412-8.574083]'       '(16.792181-inf)'           true                        false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          false                       false                       real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(16.792181-inf)'           false                       true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           true                        true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(-inf-3.720412]'           '(-inf-16.792181]'          false                       true                        pattern                     0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(16.792181-inf)'           false                       true                        real                        1
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           true                        true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          false                       true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(3.720412-8.574083]'       '(16.792181-inf)'           false                       true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          true                        false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(16.792181-inf)'           true                        true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          false                       true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          false                       true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           true                        true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           true                        true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(-inf-3.720412]'           '(-inf-16.792181]'          false                       false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          false                       true                        real                        0
+'(108-inf)'                 '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          false                       true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        false                       real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(16.792181-inf)'           true                        true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(-inf-3.720412]'           '(16.792181-inf)'           false                       true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(16.792181-inf)'           true                        true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          true                        true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(16.792181-inf)'           true                        true                        real                        0
+'(108-inf)'                 '(-inf-6.5]'                '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          true                        true                        pattern                     0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          true                        true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          true                        false                       real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        false                       real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          true                        true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       true                        real                        1
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(16.792181-inf)'           true                        true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          true                        false                       real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(16.792181-inf)'           true                        true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(8.574083-inf)'            '(-inf-16.792181]'          true                        true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          false                       true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(-inf-3.720412]'           '(-inf-16.792181]'          true                        true                        pattern                     0
+'(108-inf)'                 '(6.5-inf)'                 '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          false                       true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          false                       true                        real                        0
+'(108-inf)'                 '(-inf-6.5]'                '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          false                       true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          true                        true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(8.574083-inf)'            '(-inf-16.792181]'          true                        true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(-inf-3.720412]'           '(-inf-16.792181]'          false                       true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(-inf-3.720412]'           '(-inf-16.792181]'          false                       true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(0.001043-inf)'            '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          true                        true                        real                        0
+'(-inf-108]'                '(6.5-inf)'                 '(0.001043-inf)'            '(-inf-3.720412]'           '(-inf-16.792181]'          true                        true                        real                        0
+'(-inf-108]'                '(-inf-6.5]'                '(-inf-0.001043]'           '(3.720412-8.574083]'       '(-inf-16.792181]'          true                        true                        real                        0
+'(108-inf)'                 '(6.5-inf)'                 '(-inf-0.001043]'           '(-inf-3.720412]'           '(-inf-16.792181]'          true                        true                        real                        0
+=======================================================================================================================================================================================================================================================================
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0      1
+                             (0.96) (0.04)
+===========================================
+numberOfRows
+  'All'                       1150.0   54.0
+  [total]                     1150.0   54.0
+
+numberOfConnectedComponent
+  '(-inf-108]'                 949.0   31.0
+  '(108-inf)'                  202.0   24.0
+  [total]                     1151.0   55.0
+
+numberOfBlockFromDmPerm
+  '(-inf-6.5]'                 576.0    7.0
+  '(6.5-inf)'                  575.0   48.0
+  [total]                     1151.0   55.0
+
+normalizedAvgNNZPerRow
+  '(-inf-0.001043]'            404.0   41.0
+  '(0.001043-inf)'             747.0   14.0
+  [total]                     1151.0   55.0
+
+avgNNZPerRow
+  '(-inf-3.720412]'            180.0    3.0
+  '(3.720412-8.574083]'        494.0   48.0
+  '(8.574083-inf)'             478.0    5.0
+  [total]                     1152.0   56.0
+
+stdNNZPerRow
+  '(-inf-16.792181]'           837.0   24.0
+  '(16.792181-inf)'            314.0   31.0
+  [total]                     1151.0   55.0
+
+varNNZPerRow
+  '(-inf-281.978377]'          837.0   24.0
+  '(281.978377-inf)'           314.0   31.0
+  [total]                     1151.0   55.0
+
+maxEig
+  'All'                       1134.0   51.0
+  [total]                     1134.0   51.0
+
+isMaxEigNegative
+  true                         235.0    5.0
+  false                        916.0   50.0
+  [total]                     1151.0   55.0
+
+isDiagonallyDominant
+  true                          62.0    2.0
+  false                       1089.0   53.0
+  [total]                     1151.0   55.0
+
+isBlockDiagonal
+  true                         601.0   33.0
+  false                        550.0   22.0
+  [total]                     1151.0   55.0
+
+isDiagonal
+  true                          28.0    1.0
+  false                       1123.0   54.0
+  [total]                     1151.0   55.0
+
+field
+  real                         797.0   47.0
+  pattern                      284.0    8.0
+  integer                       57.0    1.0
+  complex                       15.0    1.0
+  [total]                     1153.0   57.0
+
+symmetric
+  symmetric                    589.0    9.0
+  general                      559.0   46.0
+  skew-symmetric                 3.0    1.0
+  hermitian                      2.0    1.0
+  [total]                     1153.0   57.0
+
+
+
+Time taken to build model: 1.33 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1175               97.7537 %
+Incorrectly Classified Instances        27                2.2463 %
+Kappa statistic                          0.6714
+Mean absolute error                      0.1201
+Root mean squared error                  0.1905
+Relative absolute error                141.2687 %
+Root relative squared error             92.7888 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.997     0.453      0.979     0.997     0.988      0.907    0
+                 0.547     0.003      0.906     0.547     0.682      0.907    1
+Weighted Avg.    0.978     0.433      0.976     0.978     0.975      0.907
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1146    3 |    a = 0
+   24   29 |    b = 1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1148               95.5075 %
+Incorrectly Classified Instances        54                4.4925 %
+Kappa statistic                          0.2321
+Mean absolute error                      0.1051
+Root mean squared error                  0.2105
+Relative absolute error                123.5973 %
+Root relative squared error            102.5146 %
+Total Number of Instances             1202     
+
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.991     0.83       0.963     0.991     0.977      0.776    0
+                 0.17      0.009      0.474     0.17      0.25       0.776    1
+Weighted Avg.    0.955     0.794      0.941     0.955     0.945      0.776
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1139   10 |    a = 0
+   44    9 |    b = 1
+
