@@ -13,31 +13,28 @@ url = "";
 localFile = "";
 directoryName = "";
 while lineCnt <= length(lines)
-	println("lines2[lineCnt]: $(lines2[lineCnt])")
 	matrixGroup = lines2[lineCnt][1];
-	println("matrixGroup: $(matrixGroup)")
 	matrixName = lines2[lineCnt][2];
-	println("matrixName $(matrixName)")
 	url = "http://www.cise.ufl.edu/research/sparse/MM/" * matrixGroup * "/" * matrixName * ".tar.gz";
-	matrixName = lines2[lineCnt][2];
-	directoryName = "/home/suleyman/phd/matrices/" * matrixGroup ;
-    localFile =  directoryName * "/" * matrixName * ".tar.gz";
+	
+	groupDirectory = "/home/suleyman/phd/matrices/" * matrixGroup ;
+        tarFile =  groupDirectory * "/" * matrixName * ".tar.gz";
+        matrixDir =  groupDirectory * "/" * matrixName * "/";
 	lineCnt = lineCnt + 1;
 
-	if( isfile( "$directoryName/$matrixName.mtx"))
+	if( isdir( matrixDir )  )
 		continue;
 	end
-
-	if( !isdir(directoryName))
-		mkdir(directoryName);
+	
+	if( !isdir(groupDirectory))
+		mkdir(groupDirectory);
 	end
-	println(url)
 
-
-	download(url, localFile);
- 	run(`tar -xvf  $localFile  -C $directoryName`);
-	#run(`mv  $directoryName/$matrixName/*.mtx $directoryName/`);
-	#run(`rm -R  $directoryName/$matrixName`);
-	run(`rm  $localFile`);
+	println(url);
+	println("$tarFile")
+	download(url, tarFile);
+	
+ 	run(`tar -xvf  $tarFile -C $groupDirectory`);
+	#run(`rm  $tarFile`);
 end
 
